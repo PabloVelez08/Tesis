@@ -215,30 +215,30 @@ const obtenerPreguntasElOsoDeAnteojos = (numeroPregunta) => {
           {
             id: 1,
             list: 1,
-            enunciado: "Por su contribución al equilibrio del ecosistema",
+            enunciado: "Son grandes y peludos, con manchas de pelo blanco alrededor de sus ojos",
             esCorrecta: true,
           },
           {
             id: 2,
             list: 1,
-            enunciado: "Por su pelaje negro",
+            enunciado: "Son animales pequeños y esbeltos que pesan alrededor de 50 kilogramos",
             esCorrecta: false,
           },
           {
             id: 3,
             list: 1,
-            enunciado: "Por su capacidad para nadar",
+            enunciado: "Son los únicos osos que viven en América del Norte",
             esCorrecta: false,
           },
           {
             id: 4,
             list: 1,
-            enunciado: "Por su habilidad para volar",
+            enunciado: " Pueden encontrarse principalmente en las llanuras costeras de Ecuador",
             esCorrecta: false,
           },
         ],
         preguntaActual:
-          "¿Por qué son considerados los osos de anteojos un símbolo de la belleza natural de Ecuador?",
+          "¿Cuál de las siguientes afirmaciones describe correctamente al oso de anteojos?",
       };
     // Agrega más casos según sea necesario
     default:
@@ -318,20 +318,20 @@ const obtenerPreguntasLaLeyendaDeCantuña = (numeroPregunta) => {
           {
             id: 1,
             list: 1,
-            enunciado: "La salvación de su alma",
+            enunciado: "Su alma como pago",
             esCorrecta: true,
           },
-          { id: 2, list: 1, enunciado: "Poderes mágicos", esCorrecta: false },
-          { id: 3, list: 1, enunciado: "Riquezas inmensas", esCorrecta: false },
+          { id: 2, list: 1, enunciado: "Los restos de Rumiñahui", esCorrecta: false },
+          { id: 3, list: 1, enunciado: "La iglesia", esCorrecta: false },
           {
             id: 4,
             list: 1,
-            enunciado: "Conocimiento eterno",
+            enunciado: "Los planos de Quito",
             esCorrecta: false,
           },
         ],
         preguntaActual:
-          "¿Qué ofreció el Diablo a Cantuña a cambio de su ayuda en la construcción?",
+          "¿Qué pidió el Diablo a Cantuña a cambio de su ayuda en la construcción?",
       };
     case 5:
       return {
@@ -369,19 +369,19 @@ const obtenerPreguntasLaLeyendaDeCantuña = (numeroPregunta) => {
           {
             id: 1,
             list: 1,
-            enunciado: "Cantuña reveló su astucia",
+            enunciado: "Cantuña no le entregó su alma",
             esCorrecta: true,
           },
           {
             id: 2,
             list: 1,
-            enunciado: "Cantuña no cumplió su parte del trato",
+            enunciado: "Cantuña completó la construcción a tiempo",
             esCorrecta: false,
           },
           {
             id: 3,
             list: 1,
-            enunciado: "La iglesia quedó incompleta",
+            enunciado: "La iglesia se derrumbó antes de ser terminada",
             esCorrecta: false,
           },
           {
@@ -400,13 +400,13 @@ const obtenerPreguntasLaLeyendaDeCantuña = (numeroPregunta) => {
           {
             id: 1,
             list: 1,
-            enunciado: "Castigos eternos para su alma",
+            enunciado: "No recibiría la pago alguno",
             esCorrecta: true,
           },
           {
             id: 2,
             list: 1,
-            enunciado: "Pérdida de riquezas",
+            enunciado: "Castigos eternos para su alma",
             esCorrecta: false,
           },
           {
@@ -431,7 +431,7 @@ const obtenerPreguntasLaLeyendaDeCantuña = (numeroPregunta) => {
           {
             id: 1,
             list: 1,
-            enunciado: "Riquezas materiales",
+            enunciado: "Una gran cantidad de dinero",
             esCorrecta: true,
           },
           {
@@ -462,7 +462,7 @@ const obtenerPreguntasLaLeyendaDeCantuña = (numeroPregunta) => {
           {
             id: 1,
             list: 1,
-            enunciado: "No quería entregar su alma",
+            enunciado: "Comprendiendo que su alma enfrentaría castigos eternos",
             esCorrecta: true,
           },
           {
@@ -474,7 +474,7 @@ const obtenerPreguntasLaLeyendaDeCantuña = (numeroPregunta) => {
           {
             id: 3,
             list: 1,
-            enunciado: "Se arrepintió de hacer el trato",
+            enunciado: "Quiso renegociar el trato",
             esCorrecta: false,
           },
           {
@@ -490,23 +490,23 @@ const obtenerPreguntasLaLeyendaDeCantuña = (numeroPregunta) => {
     case 10:
       return {
         opcionesRespuesta: [
-          { id: 1, list: 1, enunciado: "Se rió triunfante", esCorrecta: true },
-          { id: 2, list: 1, enunciado: "Lloró de alegría", esCorrecta: false },
+          { id: 1, list: 1, enunciado: "Proclamó que el trato había sido incumplido", esCorrecta: true },
+          { id: 2, list: 1, enunciado: "Invocó a los espíritus de la naturaleza para intervenir", esCorrecta: false },
           {
             id: 3,
             list: 1,
-            enunciado: "Se arrepintió de su decisión",
+            enunciado: "Se escondió para evitar enfrentarse al Diablo",
             esCorrecta: false,
           },
           {
             id: 4,
             list: 1,
-            enunciado: "Continuó trabajando en la construcción",
+            enunciado: "Se arrepintió y aceptó su destino",
             esCorrecta: false,
           },
         ],
         preguntaActual:
-          "¿Cómo reaccionó Cantuña al ver al Diablo retirarse sin llevarse su alma?",
+          "¿Cuál fue la reacción de Cantuña cuando el Diablo se aproximó para reclamar su alma?",
       };
     // Agrega más casos según sea necesario
     default:
@@ -521,7 +521,7 @@ const obtenerPreguntasElGalloDeLaCatedral = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           { id: 1, list: 1, enunciado: "Mariana", esCorrecta: true },
-          { id: 2, list: 1, enunciado: "La Chola", esCorrecta: false },
+          { id: 2, list: 1, enunciado: "Su esposa", esCorrecta: false },
           { id: 3, list: 1, enunciado: "Santa Catalina", esCorrecta: false },
           { id: 4, list: 1, enunciado: "La Catedral", esCorrecta: false },
         ],
@@ -567,7 +567,7 @@ const obtenerPreguntasElGalloDeLaCatedral = (numeroPregunta) => {
           { id: 4, list: 1, enunciado: "La Mistela", esCorrecta: false },
         ],
         preguntaActual:
-          "¿Cómo se llamaba la tienda de vinos que era de Mariana?",
+          "¿Cómo se apodaba a Mariana?",
       };
     case 5:
       return {
@@ -740,7 +740,7 @@ const obtenerPreguntasGuayaquil = (numeroPregunta) => {
     case 1:
       return {
         opcionesRespuesta: [
-          { id: 1, list: 1, enunciado: "1538", esCorrecta: true },
+          { id: 1, list: 1, enunciado: "1535", esCorrecta: true },
           { id: 2, list: 1, enunciado: "1492", esCorrecta: false },
           { id: 3, list: 1, enunciado: "1605", esCorrecta: false },
           { id: 4, list: 1, enunciado: "1650", esCorrecta: false },
@@ -765,7 +765,7 @@ const obtenerPreguntasGuayaquil = (numeroPregunta) => {
           { id: 3, list: 1, enunciado: "Seco de carne", esCorrecta: false },
           { id: 4, list: 1, enunciado: "Arroz con menestra", esCorrecta: false },
         ],
-        preguntaActual: "¿Cuál es uno de los platos emblemáticos de Guayaquil?",
+        preguntaActual: "¿Cuál es uno de los platos emblemáticos de Guayaquil que se menciona en la lectura?",
       };
     case 4:
       return {
@@ -795,7 +795,7 @@ const obtenerPreguntasGuayaquil = (numeroPregunta) => {
           { id: 3, list: 1, enunciado: "Capital Marítima", esCorrecta: false },
           { id: 4, list: 1, enunciado: "Puerta del Sol", esCorrecta: false },
         ],
-        preguntaActual: "¿Cuál es el apodo de Guayaquil debido a su ubicación estratégica?",
+        preguntaActual: "¿Cuál es el apodo de Guayaquil?",
       };
     case 7:
       return {
@@ -892,7 +892,7 @@ const obtenerPreguntasLosOtavalos = (numeroPregunta) => {
           { id: 3, list: 1, enunciado: "Gafas de sol y relojes", esCorrecta: false },
           { id: 4, list: 1, enunciado: "Gafas de sol y relojes", esCorrecta: false },
         ],
-        preguntaActual: "¿Qué tipo de accesorios suelen llevar las mujeres otavaleñas como parte de su vestimenta?",
+        preguntaActual: "¿Qué tipo de accesorios suelen llevar los hombres otavaleños como parte de su vestimenta?",
       };
     case 6:
       return {
@@ -912,7 +912,7 @@ const obtenerPreguntasLosOtavalos = (numeroPregunta) => {
           { id: 3, list: 1, enunciado: "Fachalí", esCorrecta: false },
           { id: 4, list: 1, enunciado: "Enagua", esCorrecta: false },
         ],
-        preguntaActual: "¿Qué prenda es esencial en el atuendo de los hombres otavaleños y presenta colores vibrantes y patrones geométricos?",
+        preguntaActual: "¿Qué prenda es esencial en el atuendo de los hombres otavaleños?",
       };
     case 8:
       return {
@@ -922,7 +922,7 @@ const obtenerPreguntasLosOtavalos = (numeroPregunta) => {
           { id: 3, list: 1, enunciado: "Chales y guantes", esCorrecta: false },
           { id: 4, list: 1, enunciado: "Gafas de sol y relojes", esCorrecta: false },
         ],
-        preguntaActual: "¿Qué tipo de accesorios suelen incorporar los hombres otavaleños a su vestimenta tradicional?",
+        preguntaActual: "¿Qué tipo de accesorios suelen incorporar las mujeres otavaleñas a su vestimenta tradicional?",
       };
     case 9:
       return {

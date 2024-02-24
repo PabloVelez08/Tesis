@@ -13,11 +13,7 @@ import informacionLecturas from "../../public/lecturas/informacionLecturas";
 import SonidoBoton from "../../public/audios/botones/SonidoBoton.mp3";
 
 import "../css/arrastrarYSoltar.css";
-import baseURL from "./urlConexionDataBase";
 
-const urlDabaBase = axios.create({
-  baseURL: baseURL,
-});
 const ArrastrarYSoltar = () => {
   const navigate = useNavigate();
   const [pregunta, setPregunta] = useState("");
@@ -299,8 +295,8 @@ const ArrastrarYSoltar = () => {
       insigniaObtenida,
     };
 
-    urlDabaBase
-      .post("/guardarPuntuacion", puntuacion)
+    axios
+      .post(`${import.meta.env.VITE_BACKEND_URL}/guardarPuntuacion`, puntuacion)
       .then((res) => {
         console.log(res);
       })

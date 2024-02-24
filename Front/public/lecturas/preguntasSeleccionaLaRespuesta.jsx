@@ -228,13 +228,13 @@ const obtenerPreguntasElMisterioDelJarron = (numeroPregunta) => {
     case 8:
       return {
         opcionesRespuesta: [
-          { enunciado: "Triste y decepcionada", esCorrecta: true },
+          { enunciado: "Agradecida y orgullosa", esCorrecta: true },
           { enunciado: "Enfadada", esCorrecta: false },
           { enunciado: "Desilusionada", esCorrecta: false },
           { enunciado: "Triste y enojada", esCorrecta: false },
         ],
         preguntaActual:
-          "¿Cómo se sintió la maestra Lucía después de la confesión de los estudiantes?",
+          "¿Cómo se sintió la maestra Lucía después de la confesión de los 3 estudiantes?",
       };
     case 9:
       return {
@@ -559,7 +559,7 @@ const obtenerPreguntasLaLeyendaDelPadreAlmeida = (numeroPregunta) => {
     case 3:
       return {
         opcionesRespuesta: [
-          { enunciado: "Ventana del coro", esCorrecta: true },
+          { enunciado: "Ventana pequeña", esCorrecta: true },
           { enunciado: "Ventana alta", esCorrecta: false },
           { enunciado: "Ventana secreta", esCorrecta: false },
           { enunciado: "Ventana del claustro", esCorrecta: false },
@@ -606,7 +606,7 @@ const obtenerPreguntasLaLeyendaDelPadreAlmeida = (numeroPregunta) => {
     case 7:
       return {
         opcionesRespuesta: [
-          { enunciado: "Un cortejo fúnebre", esCorrecta: true },
+          { enunciado: "Su cuerpo en el ataúd", esCorrecta: true },
           {
             enunciado: "Una procesión religiosa",
             esCorrecta: false,

@@ -4,14 +4,8 @@ import { Button, Container, Table, ButtonGroup } from "react-bootstrap";
 import BarraLogos from "./barraLogos";
 import Swal from "sweetalert2";
 import axios from "axios";
-import baseURL from "./urlConexionDataBase";
-
 
 import "../css/aceptarEstudiantes.css";
-
-const urlDabaBase = axios.create({
-  baseURL: baseURL,
-});
 
 function AceptarEstudiantes() {
   const navigate = useNavigate();
@@ -26,8 +20,8 @@ function AceptarEstudiantes() {
   }, [navigate]);
 
   const obtenerEstudiantes = () => {
-    urlDabaBase
-      .get("/obtenerEstudiantesNoValidados", {
+    axios
+      .get(`${import.meta.env.VITE_BACKEND_URL}/obtenerEstudiantesNoValidados`, {
         params: {
           usuario: sessionStorage.getItem("usuario"),
         },
@@ -63,8 +57,8 @@ function AceptarEstudiantes() {
       confirmButtonColor: "yellow",
     }).then((result) => {
       if (result.isConfirmed) {
-        urlDabaBase
-          .delete("/eliminarEstudiante", {
+        axios
+          .delete(`${import.meta.env.VITE_BACKEND_URL}/eliminarEstudiante`, {
             params: {
               userEstudiante: userEstudiante,
               userTutor: sessionStorage.getItem("usuario"),
@@ -112,8 +106,8 @@ function AceptarEstudiantes() {
         console.log(userEstudiante);
         console.log(nombre);
         console.log(apellido);
-        urlDabaBase
-          .put("/aprobarEstudiante", {
+        axios
+          .put(`${import.meta.env.VITE_BACKEND_URL}/aprobarEstudiante`, {
             userEstudiante: userEstudiante,
             userTutor: sessionStorage.getItem("usuario"),
             nombre: nombre,

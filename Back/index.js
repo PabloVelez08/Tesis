@@ -32,7 +32,7 @@ app.post("/registrarTutor", (req, res) => {
   const insertQuery =
     "INSERT INTO TUTOR (NOMBRE_TUTOR, APELLIDO_TUTOR, PASSWORD_TUTOR_ANIMAL, PASSWORD_TUTOR_COLOR, PASSWORD_TUTOR_ACCION) VALUES (?, ?, ?, ?, ?)";
   const selectQueryTutor =
-    "SELECT * FROM tutor WHERE NOMBRE_TUTOR = ? AND APELLIDO_TUTOR = ?";
+    "SELECT * FROM TUTOR WHERE NOMBRE_TUTOR = ? AND APELLIDO_TUTOR = ?";
 
   db.query(selectQueryTutor, [nombre, apellido], (err, result) => {
     if (err) {
@@ -61,9 +61,9 @@ app.post("/validarEstudiante", (req, res) => {
   const nombre = req.body.nombre;
   const apellido = req.body.apellido;
 
-  const selectQuery = "SELECT ID_TUTOR FROM tutor WHERE USER_TUTOR = ?";
+  const selectQuery = "SELECT ID_TUTOR FROM TUTOR WHERE USER_TUTOR = ?";
   const selectQueryEstudiante =
-    "SELECT * FROM estudiante WHERE NOMBRE_ESTUDIANTE = ? AND APELLIDO_ESTUDIANTE = ? ";
+    "SELECT * FROM ESTUDIANTE WHERE NOMBRE_ESTUDIANTE = ? AND APELLIDO_ESTUDIANTE = ? ";
 
   db.query(selectQuery, [usuarioTutor], (err, result) => {
     if (err) throw err;
@@ -132,7 +132,7 @@ app.post("/registrarPreguntasDeSeguridadEstudiante", (req, res) => {
   const insertQuery =
     "INSERT INTO PREGUNTAS_SEGURIDAD_ESTUDIANTE (ID_ESTUDIANTE, PRIMERA_MASCOTA, CIUDAD_NACIMIENTO, SEGUNDO_NOMBRE_MAMA) VALUES (?, ?, ?, ?);";
   const selectQuery =
-    "SELECT ID_ESTUDIANTE FROM estudiante WHERE NOMBRE_ESTUDIANTE = ? AND APELLIDO_ESTUDIANTE = ?";
+    "SELECT ID_ESTUDIANTE FROM ESTUDIANTE WHERE NOMBRE_ESTUDIANTE = ? AND APELLIDO_ESTUDIANTE = ?";
 
   db.query(selectQuery, [nombre, apellido], (err, result) => {
     if (err) throw err;
@@ -192,7 +192,7 @@ app.post("/validarPreguntaSeguridadEstudiante", (req, res) => {
 app.post("/validarUsuarioEstudiante", (req, res) => {
   const usuario = req.body.usuario;
 
-  const selectQuery = "SELECT * FROM estudiante WHERE USER_ESTUDIANTE = ? AND USER_ESTUDIANTE != 'invitadoinvitado'";
+  const selectQuery = "SELECT * FROM ESTUDIANTE WHERE USER_ESTUDIANTE = ? AND USER_ESTUDIANTE != 'invitadoinvitado'";
 
   db.query(selectQuery, [usuario], (err, result) => {
     if (err) throw err;
@@ -211,9 +211,9 @@ app.post("/login", (req, res) => {
   const accion = req.body.accion;
 
   const selectQueryTutor =
-    "SELECT * FROM tutor WHERE USER_TUTOR = ? AND PASSWORD_TUTOR_ANIMAL = ? AND PASSWORD_TUTOR_COLOR = ? AND PASSWORD_TUTOR_ACCION = ?";
+    "SELECT * FROM TUTOR WHERE USER_TUTOR = ? AND PASSWORD_TUTOR_ANIMAL = ? AND PASSWORD_TUTOR_COLOR = ? AND PASSWORD_TUTOR_ACCION = ?";
   const selectQueryEstudiante =
-    "SELECT * FROM estudiante WHERE USER_ESTUDIANTE = ? AND PASSWORD_ESTUDIANTE_ANIMAL = ? AND PASSWORD_ESTUDIANTE_COLOR = ? AND PASSWORD_ESTUDIANTE_ACCION = ?";
+    "SELECT * FROM ESTUDIANTE WHERE USER_ESTUDIANTE = ? AND PASSWORD_ESTUDIANTE_ANIMAL = ? AND PASSWORD_ESTUDIANTE_COLOR = ? AND PASSWORD_ESTUDIANTE_ACCION = ?";
 
   db.query(
     selectQueryTutor,
@@ -252,7 +252,7 @@ app.put("/actualizarContrasena", (req, res) => {
 
   const updateQuery = `UPDATE estudiante
   SET PASSWORD_ESTUDIANTE_ANIMAL = ?, PASSWORD_ESTUDIANTE_COLOR = ?,
-  PASSWORD_ESTUDIANTE_ACCION = ?  WHERE user_estudiante = ?`;
+  PASSWORD_ESTUDIANTE_ACCION = ?  WHERE USER_ESTUDIANTE = ?`;
 
   db.query(
     updateQuery,
@@ -270,7 +270,7 @@ app.put("/actualizarContrasena", (req, res) => {
 app.get("/obtenerNombreEstudiante", (req, res) => {
   const usuario = req.query.usuario;
   const selectQuery =
-    "SELECT user_estudiante, nombre_estudiante, apellido_estudiante, usuario_validado FROM estudiante WHERE user_estudiante = ?";
+    "SELECT USER_ESTUDIANTE, NOMBRE_ESTUDIANTE, APELLIDO_ESTUDIANTE, USUARIO_VALIDADO FROM ESTUDIANTE WHERE USER_ESTUDIANTE = ?";
 
   db.query(selectQuery, [usuario], (err, result) => {
     if (err) {
@@ -284,7 +284,7 @@ app.get("/obtenerNombreEstudiante", (req, res) => {
 app.get("/obtenerNombreTutor", (req, res) => {
   const usuario = req.query.usuario;
   const selectQuery =
-    "SELECT user_tutor, nombre_tutor, apellido_tutor FROM tutor WHERE user_tutor = ?";
+    "SELECT USER_TUTOR, NOMBRE_TUTOR, APELLIDO_TUTOR FROM TUTOR WHERE USER_TUTOR = ?";
 
   db.query(selectQuery, [usuario], (err, result) => {
     if (err) {
@@ -298,7 +298,7 @@ app.get("/obtenerNombreTutor", (req, res) => {
 app.get("/obtenerEstudiantesValidados", (req, res) => {
   const usuario = req.query.usuario;
   const selectQuery =
-    "SELECT user_estudiante, nombre_estudiante, apellido_estudiante FROM ESTUDIANTE JOIN TUTOR ON ESTUDIANTE.ID_TUTOR = TUTOR.ID_TUTOR WHERE estudiante.USUARIO_VALIDADO = true and tutor.USER_TUTOR = ?";
+    "SELECT USER_ESTUDIANTE, NOMBRE_ESTUDIANTE, APELLIDO_ESTUDIANTE FROM ESTUDIANTE JOIN TUTOR ON ESTUDIANTE.ID_TUTOR = TUTOR.ID_TUTOR WHERE estudiante.USUARIO_VALIDADO = true and TUTOR.USER_TUTOR = ?";
 
   db.query(selectQuery, [usuario], (err, result) => {
     if (err) {
@@ -425,7 +425,7 @@ WHERE
 app.get("/obtenerEstudiantesNoValidados", (req, res) => {
   const usuario = req.query.usuario;
   const selectQuery =
-    "SELECT user_estudiante, nombre_estudiante, apellido_estudiante FROM ESTUDIANTE JOIN TUTOR ON ESTUDIANTE.ID_TUTOR = TUTOR.ID_TUTOR WHERE estudiante.USUARIO_VALIDADO = false and tutor.USER_TUTOR = ?";
+    "SELECT USER_ESTUDIANTE, NOMBRE_ESTUDIANTE, APELLIDO_ESTUDIANTE FROM ESTUDIANTE JOIN TUTOR ON ESTUDIANTE.ID_TUTOR = TUTOR.ID_TUTOR WHERE ESTUDIANTE.USUARIO_VALIDADO = false and TUTOR.USER_TUTOR = ?";
 
   db.query(selectQuery, [usuario], (err, result) => {
     if (err) {
@@ -443,8 +443,8 @@ app.delete("/eliminarEstudiante", (req, res) => {
   const apellido = req.query.apellido;
 
   const deleteQuery =
-    "DELETE FROM estudiante WHERE user_estudiante = ? AND id_tutor = ? AND nombre_estudiante = ? AND apellido_estudiante = ?";
-  const selectQuery = "SELECT ID_TUTOR FROM tutor WHERE USER_TUTOR = ?";
+    "DELETE FROM ESTUDIANTE WHERE USER_ESTUDIANTE = ? AND ID_TUTOR = ? AND NOMBRE_ESTUDIANTE = ? AND APELLIDO_ESTUDIANTE = ?";
+  const selectQuery = "SELECT ID_TUTOR FROM TUTOR WHERE USER_TUTOR = ?";
 
   db.query(selectQuery, [userTutor], (err, result) => {
     if (err) throw err;
@@ -473,7 +473,7 @@ app.put("/aprobarEstudiante", (req, res) => {
   const apellido = req.body.apellido;
 
   const updateQuery =
-    "UPDATE estudiante SET usuario_validado = true WHERE user_estudiante = ? AND nombre_estudiante = ? AND apellido_estudiante = ?";
+    "UPDATE ESTUDIANTE SET USUARIO_VALIDADO = true WHERE USER_ESTUDIANTE = ? AND NOMBRE_ESTUDIANTE = ? AND APELLIDO_ESTUDIANTE = ?";
 
   db.query(updateQuery, [userEstudiante, nombre, apellido], (err, result) => {
     if (err) {

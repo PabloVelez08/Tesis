@@ -6,11 +6,7 @@ import axios from "axios";
 import "../css/index.css";
 import useSound from "use-sound";
 import SonidoBoton from "../../public/audios/botones/SonidoBoton.mp3";
-import baseURL from "./urlConexionDataBase";
 
-const urlDabaBase = axios.create({
-  baseURL: baseURL,
-});
 
 function Index() {
   const navigate = useNavigate();
@@ -18,7 +14,7 @@ function Index() {
 
   const irMenuJuegos = async () => {
     try {
-      const response = await urlDabaBase.post("/login", {
+      const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/login`, {
         usuario: "invitadoinvitado",
         animal: "Cuy",
         color: "Amarillo",

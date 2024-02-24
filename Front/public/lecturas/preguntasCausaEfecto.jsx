@@ -21,59 +21,59 @@ const obtenerPreguntasLaFuenteDeLosTalentos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "El comportamiento orgulloso de aquellos con talentos.",
+            enunciado: "El comportamiento orgulloso de aquellos con talentos",
             esCorrecta: true,
           },
           {
-            enunciado: "La falta de cuidado de los habitantes.",
+            enunciado: "La falta de cuidado de los habitantes",
             esCorrecta: false,
           },
-          { enunciado: "La escasez de agua en la isla.", esCorrecta: false },
+          { enunciado: "La escasez de agua en la isla", esCorrecta: false },
           {
-            enunciado: "La sequedad del Árbol de la Humildad.",
+            enunciado: "La sequedad del Árbol de la Humildad",
             esCorrecta: false,
           },
         ],
         preguntaActual:
-          "¿Cuál fue la causa principal de que la Fuente de los Cien Talentos se secara?",
+          "¿Cuál fue la causa principal de que la Fuente de Cien Talentos se secara?",
       };
     case 2:
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Porque la Fuente de los Cien Talentos no les bañó.",
+            enunciado: "Porque nunca llegaron a conocerlo",
             esCorrecta: true,
           },
           {
-            enunciado: "Porque no querían compartir sus dones.",
+            enunciado: "Porque no querían compartir sus dones",
             esCorrecta: false,
           },
           {
-            enunciado: "Debido a la falta de interés en perfeccionarlos.",
+            enunciado: "Debido a la falta de interés en perfeccionarlos",
             esCorrecta: false,
           },
           {
-            enunciado: "A causa de la envidia que generaban.",
+            enunciado: "A causa de la envidia que generaban",
             esCorrecta: false,
           },
         ],
         preguntaActual:
-          "¿Por qué algunos habitantes nunca llegaron a conocer su talento?",
+          "¿Por qué algunos habitantes no poseian ningun talento?",
       };
     case 3:
       return {
         opcionesRespuesta: [
           {
-            enunciado: "La actitud arrogante de aquellos con talentos.",
+            enunciado: "La actitud arrogante de aquellos con talentos",
             esCorrecta: true,
           },
-          { enunciado: "La desaparición de los talentos.", esCorrecta: false },
+          { enunciado: "La desaparición de los talentos", esCorrecta: false },
           {
-            enunciado: "El comportamiento humilde de algunos.",
+            enunciado: "El comportamiento humilde de algunos",
             esCorrecta: false,
           },
           {
-            enunciado: "La sequedad del Árbol de la Humildad.",
+            enunciado: "La sequedad del Árbol de la Humildad",
             esCorrecta: false,
           },
         ],
@@ -84,19 +84,19 @@ const obtenerPreguntasLaFuenteDeLosTalentos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Aumento de la monotonía y el aburrimiento.",
+            enunciado: "Aumento de la monotonía y el aburrimiento",
             esCorrecta: true,
           },
           {
-            enunciado: "Incremento de la diversidad y la creatividad.",
+            enunciado: "Incremento de la diversidad y la creatividad",
             esCorrecta: false,
           },
           {
-            enunciado: "Mayor cooperación entre los habitantes.",
+            enunciado: "Mayor cooperación entre los habitantes",
             esCorrecta: false,
           },
           {
-            enunciado: "Desarrollo de nuevos talentos de forma natural.",
+            enunciado: "Desarrollo de nuevos talentos de forma natural",
             esCorrecta: false,
           },
         ],
@@ -107,15 +107,15 @@ const obtenerPreguntasLaFuenteDeLosTalentos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Experimentaron culpa y remordimiento.",
+            enunciado: "Experimentaron culpa y remordimiento",
             esCorrecta: true,
           },
-          { enunciado: "Se sintieron aliviados.", esCorrecta: false },
+          { enunciado: "Se sintieron aliviados", esCorrecta: false },
           {
-            enunciado: "Celebraron la igualdad en la isla.",
+            enunciado: "Celebraron la igualdad en la isla",
             esCorrecta: false,
           },
-          { enunciado: "Ignoraron la situación.", esCorrecta: false },
+          { enunciado: "Ignoraron la situación", esCorrecta: false },
         ],
         preguntaActual:
           "¿Cómo reaccionaron los habitantes cuando falleció el último individuo talentoso?",
@@ -124,15 +124,15 @@ const obtenerPreguntasLaFuenteDeLosTalentos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Aceptar las diferencias y no juzgar a los demás.",
+            enunciado: "Aceptar las diferencias y no juzgar a los demás",
             esCorrecta: true,
           },
-          { enunciado: "Deberían esconder sus talentos.", esCorrecta: false },
+          { enunciado: "Deberían esconder sus talentos", esCorrecta: false },
           {
-            enunciado: "Competir para destacar en la isla.",
+            enunciado: "Competir para destacar en la isla",
             esCorrecta: false,
           },
-          { enunciado: "La humildad no tiene importancia.", esCorrecta: false },
+          { enunciado: "La humildad no tiene importancia", esCorrecta: false },
         ],
         preguntaActual:
           "¿Cuál era la lección vital que aprendieron los habitantes tras la sequía de la fuente?",
@@ -141,35 +141,35 @@ const obtenerPreguntasLaFuenteDeLosTalentos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "La lluvia de humildad que bañó a todos.",
+            enunciado: "El arrepentimiento de los habitantes",
             esCorrecta: true,
           },
           {
-            enunciado: "La construcción de un nuevo pozo.",
+            enunciado: "La construcción de un nuevo pozo",
             esCorrecta: false,
           },
           {
-            enunciado: "La búsqueda de talentos en otras islas.",
+            enunciado: "La búsqueda de talentos en otras islas",
             esCorrecta: false,
           },
           {
-            enunciado: "El arrepentimiento de los habitantes.",
+            enunciado: "Esperar lo suficiente para que la fuente se recargue",
             esCorrecta: false,
           },
         ],
         preguntaActual:
-          "¿Qué provocó que la Fuente de los Cien Talentos volviera a fluir?",
+          "¿Qué provocó que la Fuente de los Talentos volviera a fluir?",
       };
     case 8:
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Volvieron a ser amorosas y respetuosas.",
+            enunciado: "Volvieron a ser amorosas y respetuosas",
             esCorrecta: true,
           },
-          { enunciado: "Se volvieron más orgullosos.", esCorrecta: false },
-          { enunciado: "Ignoraron las diferencias.", esCorrecta: false },
-          { enunciado: "Se volvieron más competitivos.", esCorrecta: false },
+          { enunciado: "Se volvieron más orgullosos", esCorrecta: false },
+          { enunciado: "Ignoraron las diferencias", esCorrecta: false },
+          { enunciado: "Se volvieron más competitivos", esCorrecta: false },
         ],
         preguntaActual:
           "¿Cómo cambiaron las relaciones entre los habitantes después de la lluvia de humildad?",
@@ -178,13 +178,13 @@ const obtenerPreguntasLaFuenteDeLosTalentos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Los padres y amigos de los nuevos talentosos.",
+            enunciado: "Los padres y amigos de los nuevos talentosos",
             esCorrecta: true,
           },
-          { enunciado: "Los ancianos de la isla.", esCorrecta: false },
-          { enunciado: "Los habitantes con talentos.", esCorrecta: false },
+          { enunciado: "Los ancianos de la isla", esCorrecta: false },
+          { enunciado: "Los habitantes con talentos", esCorrecta: false },
           {
-            enunciado: "Nadie, cada uno se enseñó a sí mismo.",
+            enunciado: "Nadie, cada uno se enseñó a sí mismo",
             esCorrecta: false,
           },
         ],
@@ -194,14 +194,14 @@ const obtenerPreguntasLaFuenteDeLosTalentos = (numeroPregunta) => {
     case 10:
       return {
         opcionesRespuesta: [
-          { enunciado: "Generar lluvia de humildad.", esCorrecta: true },
+          { enunciado: "Proveer agua a la Fuente de los Cien Talentos", esCorrecta: true },
           {
-            enunciado: "Proveer agua a la Fuente de los Cien Talentos.",
+            enunciado: "Generar lluvia de humildad",
             esCorrecta: false,
           },
-          { enunciado: "Secarse debido a la envidia.", esCorrecta: false },
+          { enunciado: "Secarse debido a la envidia", esCorrecta: false },
           {
-            enunciado: "Desarrollar nuevos talentos en los habitantes.",
+            enunciado: "Desarrollar nuevos talentos en los habitantes",
             esCorrecta: false,
           },
         ],
@@ -221,19 +221,19 @@ const obtenerPreguntasElEspantapajarosSolidario = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "La avaricia extrema del agricultor.",
+            enunciado: "La avaricia extrema del agricultor",
             esCorrecta: true,
           },
           {
-            enunciado: "La abundancia de aves en el huerto.",
+            enunciado: "La abundancia de aves en el huerto",
             esCorrecta: false,
           },
           {
-            enunciado: "La falta de métodos para proteger el cultivo.",
+            enunciado: "La falta de métodos para proteger el cultivo",
             esCorrecta: false,
           },
           {
-            enunciado: "La necesidad de decorar el huerto.",
+            enunciado: "La necesidad de decorar el huerto",
             esCorrecta: false,
           },
         ],
@@ -243,10 +243,10 @@ const obtenerPreguntasElEspantapajarosSolidario = (numeroPregunta) => {
     case 2:
       return {
         opcionesRespuesta: [
-          { enunciado: "Cambio el corazón del agricultor.", esCorrecta: true },
-          { enunciado: "Aumento de la cosecha.", esCorrecta: false },
-          { enunciado: "Disminución de aves en el huerto.", esCorrecta: false },
-          { enunciado: "Pérdida de dientes de trigo.", esCorrecta: false },
+          { enunciado: "Cambio el corazón del agricultor", esCorrecta: true },
+          { enunciado: "Aumento de la cosecha", esCorrecta: false },
+          { enunciado: "Disminución de aves en el huerto", esCorrecta: false },
+          { enunciado: "Pérdida de dientes de trigo", esCorrecta: false },
         ],
         preguntaActual:
           "¿Qué efecto tuvo la presencia del espantapájaros en el huerto?",
@@ -255,18 +255,18 @@ const obtenerPreguntasElEspantapajarosSolidario = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "La necesidad de alimentar a sus crías.",
+            enunciado: "La necesidad de alimentar a sus crías",
             esCorrecta: true,
           },
           {
-            enunciado: "La falta de alimento en el huerto.",
+            enunciado: "La falta de alimento en el huerto",
             esCorrecta: false,
           },
           {
-            enunciado: "Buscar comida para si mismo.",
+            enunciado: "Buscar comida para si mismo",
             esCorrecta: false,
           },
-          { enunciado: "La generosidad del agricultor.", esCorrecta: false },
+          { enunciado: "La generosidad del agricultor", esCorrecta: false },
         ],
         preguntaActual:
           "¿Cuál fue la causa directa de que el pájaro se posara en un árbol y pidiera comida al espantapájaros?",
@@ -275,15 +275,15 @@ const obtenerPreguntasElEspantapajarosSolidario = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Perdió la capacidad de entonar una canción.",
+            enunciado: "Perdió la capacidad de entonar una canción",
             esCorrecta: true,
           },
-          { enunciado: "Mejoró su eficacia.", esCorrecta: false },
+          { enunciado: "Mejoró su eficacia", esCorrecta: false },
           {
-            enunciado: "Lo hizo más amigable con los animales.",
+            enunciado: "Lo hizo más amigable con los animales",
             esCorrecta: false,
           },
-          { enunciado: "Aumentó su atractivo visual.", esCorrecta: false },
+          { enunciado: "Aumentó su atractivo visual", esCorrecta: false },
         ],
         preguntaActual:
           "¿Cómo afectó la generosidad del espantapájaros al cumplimiento de su función?",
@@ -291,13 +291,13 @@ const obtenerPreguntasElEspantapajarosSolidario = (numeroPregunta) => {
     case 5:
       return {
         opcionesRespuesta: [
-          { enunciado: "Dar sus dientes de trigo.", esCorrecta: true },
+          { enunciado: "La falta de boca y nariz", esCorrecta: true },
           {
-            enunciado: "La falta de habilidades musicales.",
+            enunciado: "La falta de habilidades musicales",
             esCorrecta: false,
           },
-          { enunciado: "La generosidad hacia el conejo.", esCorrecta: false },
-          { enunciado: "La falta de boca y nariz.", esCorrecta: false },
+          { enunciado: "La generosidad hacia el conejo", esCorrecta: false },
+          { enunciado: "La falta técnica al silbar", esCorrecta: false },
         ],
         preguntaActual:
           "¿Qué causó que el espantapájaros perdiera la capacidad de entonar una canción?",
@@ -359,7 +359,7 @@ const obtenerPreguntasElEspantapajarosSolidario = (numeroPregunta) => {
           { enunciado: "Pérdida de simpatía de los animales.", esCorrecta: false },
           { enunciado: "Desaparición del huerto.", esCorrecta: false },
         ],
-        preguntaActual: "¿Qué efecto tuvo el acto del agricultor al prender fuego al espantapájaros?",
+        preguntaActual: "¿Qué efecto tuvo el acto del agricultor comerse el corazón de granada del espantapájaros?",
       };
     case 10:
       return {
@@ -383,76 +383,76 @@ const obtenerPreguntasLosTresAnimalitos = (numeroPregunta) => {
     case 1:
       return {
         opcionesRespuesta: [
-          { enunciado: "La curiosidad por explorar la región.", esCorrecta: true },
-          { enunciado: "La escasez de alimentos en su hogar.", esCorrecta: false },
-          { enunciado: "La necesidad de encontrar nuevas amistades.", esCorrecta: false },
-          { enunciado: "La invitación de otros animales.", esCorrecta: false },
+          { enunciado: "La busqueda de alimentos frescos y deliciosos", esCorrecta: true },
+          { enunciado: "La escasez de alimentos en su hogar", esCorrecta: false },
+          { enunciado: "La necesidad de encontrar nuevas amistades", esCorrecta: false },
+          { enunciado: "La invitación de otros animales", esCorrecta: false },
         ],
         preguntaActual: "¿Cuál fue la causa principal de la aventura al campo de Don Tortuga, Don Colibrí y Don Tigrillo?",
       };
     case 2:
       return {
         opcionesRespuesta: [
-          { enunciado: "Compartir bananos con sus amigos.", esCorrecta: true },
-          { enunciado: "Encontrar nuevos lugares para vivir.", esCorrecta: false },
-          { enunciado: "Alejarse de sus amigos.", esCorrecta: false },
-          { enunciado: "Desentenderse de la comida.", esCorrecta: false },
+          { enunciado: "Compartir bananos con sus amigos", esCorrecta: true },
+          { enunciado: "Encontrar nuevos lugares para vivir", esCorrecta: false },
+          { enunciado: "Alejarse de sus amigos", esCorrecta: false },
+          { enunciado: "Desentenderse de la comida", esCorrecta: false },
         ],
         preguntaActual: "¿Cuál fue el efecto de que Don Tortuga se encontrara con una plantación de bananos?",
       };
     case 3:
       return {
         opcionesRespuesta: [
-          { enunciado: "La búsqueda de regalos para sus amigos.", esCorrecta: true },
-          { enunciado: "El deseo de adornar su nido.", esCorrecta: false },
-          { enunciado: "La necesidad de alimentarse.", esCorrecta: false },
-          { enunciado: "La falta de otras opciones de alimentos.", esCorrecta: false },
+          { enunciado: "Babano", esCorrecta: true },
+          { enunciado: "Maracuyá", esCorrecta: false },
+          { enunciado: "Aguacate", esCorrecta: false },
+          { enunciado: "Peras", esCorrecta: false },
         ],
-        preguntaActual: "¿Qué causó que Don Colibrí recolectara flores de guayacán?",
+        preguntaActual: "¿Qué fruto encontro Don Trotuga?",
       };
     case 4:
       return {
         opcionesRespuesta: [
-          { enunciado: "Compartir maracuyás con sus amigos.", esCorrecta: true },
-          { enunciado: "Deleitarse con una fruta.", esCorrecta: false },
-          { enunciado: "Ignorar las frutas tropicales.", esCorrecta: false },
-          { enunciado: "Alejarse del campo.", esCorrecta: false },
+          { enunciado: "Compartir maracuyás con sus amigos", esCorrecta: true },
+          { enunciado: "Deleitarse con una fruta", esCorrecta: false },
+          { enunciado: "Ignorar las frutas tropicales", esCorrecta: false },
+          { enunciado: "Alejarse del campo", esCorrecta: false },
         ],
         preguntaActual: "¿Cuál fue el efecto de que Don Tigrillo descubriera un claro lleno de frutas tropicales?",
       };
     case 5:
       return {
         opcionesRespuesta: [
-          { enunciado: "El gesto de generosidad entre ellos.", esCorrecta: true },
-          { enunciado: "La escasez de alimentos en la región.", esCorrecta: false },
-          { enunciado: "La necesidad de festejar un evento especial.", esCorrecta: false },
-          { enunciado: "La presencia de otros animales en la selva.", esCorrecta: false },
+          { enunciado: "El gesto de generosidad entre ellos", esCorrecta: true },
+          { enunciado: "La escasez de alimentos en la región", esCorrecta: false },
+          { enunciado: "La necesidad de festejar un evento especial", esCorrecta: false },
+          { enunciado: "La presencia de otros animales en la selva", esCorrecta: false },
         ],
         preguntaActual: "¿Qué causó que los tres amigos decidieran celebrar su amistad con un banquete?",
       };
     case 6:
       return {
         opcionesRespuesta: [
-          { enunciado: "Experimentaron sorpresa y alegría.", esCorrecta: true },
-          { enunciado: "Decidieron no celebrar la amistad.", esCorrecta: false },
-          { enunciado: "Se distanciaron como amigos.", esCorrecta: false },
-          { enunciado: "Ignoraron los regalos.", esCorrecta: false },
+          { enunciado: "Experimentaron sorpresa y alegría", esCorrecta: true },
+          { enunciado: "Decidieron no celebrar la amistad", esCorrecta: false },
+          { enunciado: "Se distanciaron como amigos", esCorrecta: false },
+          { enunciado: "Ignoraron los regalos", esCorrecta: false },
         ],
         preguntaActual: "¿Cuál fue el efecto de que Don Tortuga, Don Colibrí y Don Tigrillo encontraran la comida completa y cuidadosamente colocada?",
       };
     case 7:
       return {
         opcionesRespuesta: [
-          { enunciado: "La celebración de un banquete.", esCorrecta: true },
+          { enunciado: "La celebración de un banquete", esCorrecta: true },
           {
-            enunciado: "La falta de comida en la selva.",
+            enunciado: "La falta de comida en la selva",
             esCorrecta: false,
           },
           {
-            enunciado: "La presencia de otros animales.",
+            enunciado: "La presencia de otros animales",
             esCorrecta: false,
           },
-          { enunciado: "Encontrar la comida completa en sus madrigueras.", esCorrecta: false },
+          { enunciado: "Encontrar la comida completa en sus madrigueras", esCorrecta: false },
         ],
         preguntaActual: "¿Qué causó que los tres amigos se percataran del hermoso gesto de generosidad entre ellos?",
       };
@@ -460,32 +460,32 @@ const obtenerPreguntasLosTresAnimalitos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Fortalecieron aún más los lazos que los unían.",
+            enunciado: "Fortalecieron aún más los lazos que los unían",
             esCorrecta: true,
           },
-          { enunciado: "Debilitaron los lazos de amistad.", esCorrecta: false },
-          { enunciado: "Se alejaron de la selva.", esCorrecta: false },
-          { enunciado: "Ignoraron la diversidad natural de su hogar.", esCorrecta: false },
+          { enunciado: "Debilitaron los lazos de amistad", esCorrecta: false },
+          { enunciado: "Se alejaron de la selva", esCorrecta: false },
+          { enunciado: "Ignoraron la diversidad natural de su hogar", esCorrecta: false },
         ],
         preguntaActual: "¿Cuál fue el efecto de que los tres amigos celebraran su amistad en un festín en la exuberante selva de Ecuador?",
       };
     case 9:
       return {
         opcionesRespuesta: [
-          { enunciado: "La emoción de compartir con amigos.", esCorrecta: true },
-          { enunciado: "La necesidad de impresionar a otros animales.", esCorrecta: false },
-          { enunciado: "La falta de interés en la comida regional.", esCorrecta: false },
-          { enunciado: "La tradición de celebrar con festines.", esCorrecta: false },
+          { enunciado: "La emoción de compartir con amigos", esCorrecta: true },
+          { enunciado: "La necesidad de impresionar a otros animales", esCorrecta: false },
+          { enunciado: "La falta de interés en la comida regional", esCorrecta: false },
+          { enunciado: "La tradición de celebrar con festines", esCorrecta: false },
         ],
         preguntaActual: "¿Qué causó que los tres amigos compartieran alimentos característicos de la región?",
       };
     case 10:
       return {
         opcionesRespuesta: [
-          { enunciado: "Fortalecer aún más los lazos de amistad.", esCorrecta: true },
-          { enunciado: "Alejarse de la selva ecuatoriana.", esCorrecta: false },
-          { enunciado: "Celebrar festines más frecuentes.", esCorrecta: false },
-          { enunciado: "Ignorar la diversidad animal en su hogar.", esCorrecta: false },
+          { enunciado: "Fortalecer aún más los lazos de amistad", esCorrecta: true },
+          { enunciado: "Alejarse de la selva ecuatoriana", esCorrecta: false },
+          { enunciado: "Celebrar festines más frecuentes", esCorrecta: false },
+          { enunciado: "Ignorar la diversidad animal en su hogar", esCorrecta: false },
         ],
         preguntaActual: "¿Cuál fue el efecto final del gesto de generosidad entre Don Tortuga, Don Colibrí y Don Tigrillo?",
       };
@@ -501,76 +501,76 @@ const obtenerPreguntasLaLechera = (numeroPregunta) => {
       case 1:
         return {
           opcionesRespuesta: [
-            { enunciado: "La solicitud de su madre, enferma y sin ánimo.", esCorrecta: true },
-            { enunciado: "La necesidad de comprar huevos para la familia.", esCorrecta: false },
-            { enunciado: "El deseo de la niña de explorar el mercado.", esCorrecta: false },
-            { enunciado: "La falta de otros miembros familiares para realizar la tarea.", esCorrecta: false },
+            { enunciado: "La solicitud de su madre, enferma y sin ánimo", esCorrecta: true },
+            { enunciado: "La necesidad de comprar huevos para la familia", esCorrecta: false },
+            { enunciado: "El deseo de la niña de explorar el mercado", esCorrecta: false },
+            { enunciado: "La falta de otros miembros familiares para realizar la tarea", esCorrecta: false },
           ],
           preguntaActual: "¿Cuál fue la causa principal de que la niña fuera al mercado con la leche?",
         };
       case 2:
         return {
           opcionesRespuesta: [
-            { enunciado: "La niña recibió elogios y afecto de su madre.", esCorrecta: true },
-            { enunciado: "La madre se recuperó rápidamente.", esCorrecta: false },
-            { enunciado: "La niña decidió no cumplir la tarea.", esCorrecta: false },
-            { enunciado: "La niña cambió de opinión y se negó a ir al mercado.", esCorrecta: false },
+            { enunciado: "La niña recibió elogios y afecto de su madre", esCorrecta: true },
+            { enunciado: "La madre se recuperó rápidamente", esCorrecta: false },
+            { enunciado: "La niña decidió no cumplir la tarea", esCorrecta: false },
+            { enunciado: "La niña cambió de opinión y se negó a ir al mercado", esCorrecta: false },
           ],
           preguntaActual: "¿Qué efecto tuvo la disposición y responsabilidad de la niña al recibir la tarea de su madre?",
         };
       case 3:
         return {
           opcionesRespuesta: [
-            { enunciado: "La necesidad de una inversión rentable.", esCorrecta: true },
-            { enunciado: "El deseo de sorprender a su madre.", esCorrecta: false },
-            { enunciado: "La sugerencia de un amigo.", esCorrecta: false },
-            { enunciado: "La falta de ideas sobre cómo gastar el dinero.", esCorrecta: false },
+            { enunciado: "El deseo de hacerse rica", esCorrecta: true },
+            { enunciado: "El deseo de sorprender a su madre", esCorrecta: false },
+            { enunciado: "La sugerencia de un amigo", esCorrecta: false },
+            { enunciado: "La falta de ideas sobre cómo gastar el dinero", esCorrecta: false },
           ],
           preguntaActual: "¿Qué causó que la niña planificara comprar una docena de huevos con el dinero de la leche?",
         };
       case 4:
         return {
           opcionesRespuesta: [
-            { enunciado: "Se distrajo de sus pensamientos.", esCorrecta: true },
-            { enunciado: "Se lastimó gravemente.", esCorrecta: false },
-            { enunciado: "Logró evitar caer.", esCorrecta: false },
-            { enunciado: "Continuó su camino sin problemas.", esCorrecta: false },
+            { enunciado: "Se distrajo de sus pensamientos", esCorrecta: true },
+            { enunciado: "Se lastimó gravemente", esCorrecta: false },
+            { enunciado: "Logró evitar caer", esCorrecta: false },
+            { enunciado: "Continuó su camino sin problemas", esCorrecta: false },
           ],
-          preguntaActual: "¿Cuál fue el efecto de que la niña tropezara con una piedra en el camino?",
+          preguntaActual: "¿Cuál fue la causa de que la niña tropezara con una piedra en el camino?",
         };
       case 5:
         return {
           opcionesRespuesta: [
-            { enunciado: "Una piedra en el camino.", esCorrecta: true },
-            { enunciado: "La distracción de la niña.", esCorrecta: false },
-            { enunciado: "Un ataque de otro animal.", esCorrecta: false },
-            { enunciado: "La mala calidad del cántaro.", esCorrecta: false },
+            { enunciado: "Una piedra en el camino", esCorrecta: true },
+            { enunciado: "La distracción de la niña", esCorrecta: false },
+            { enunciado: "Un ataque de otro animal", esCorrecta: false },
+            { enunciado: "La mala calidad del cántaro", esCorrecta: false },
           ],
           preguntaActual: "¿Qué causó la caída de la niña y la rotura del cántaro?",
         };
       case 6:
         return {
           opcionesRespuesta: [
-            { enunciado: "Sus sueños se desvanecieron.", esCorrecta: true },
-            { enunciado: "Se volvió más ambiciosa.", esCorrecta: false },
-            { enunciado: "Encontró una solución alternativa.", esCorrecta: false },
-            { enunciado: "Decidió seguir adelante con su plan.", esCorrecta: false },
+            { enunciado: "Sus sueños se desvanecieron", esCorrecta: true },
+            { enunciado: "Se volvió más ambiciosa", esCorrecta: false },
+            { enunciado: "Encontró una solución alternativa", esCorrecta: false },
+            { enunciado: "Decidió seguir adelante con su plan", esCorrecta: false },
           ],
           preguntaActual: "¿Cuál fue el efecto de la caída de la niña en su planificación?",
         };
       case 7:
         return {
           opcionesRespuesta: [
-            { enunciado: "La rotura del cántaro y la pérdida de la leche.", esCorrecta: true },
+            { enunciado: "La rotura del cántaro y la pérdida de la leche", esCorrecta: true },
             {
-              enunciado: "La falta de interés en continuar con su plan.",
+              enunciado: "La falta de interés en continuar con su plan",
               esCorrecta: false,
             },
             {
-              enunciado: "La risa de otros al ver su caída.",
+              enunciado: "La risa de otros al ver su caída",
               esCorrecta: false,
             },
-            { enunciado: "La decisión de su madre de no vender la leche.", esCorrecta: false },
+            { enunciado: "La decisión de su madre de no vender la leche", esCorrecta: false },
           ],
           preguntaActual: "¿Qué causó que la niña lamentara la pérdida de los huevos, los pollitos, el lechón y la ternera?",
         };
@@ -578,29 +578,29 @@ const obtenerPreguntasLaLechera = (numeroPregunta) => {
         return {
           opcionesRespuesta: [
             {
-              enunciado: "Aprendió una lección sobre la ambición.",
+              enunciado: "No contar con lo que no se tiene",
               esCorrecta: true,
             },
-            { enunciado: "Decidió intentar nuevamente su plan.", esCorrecta: false },
-            { enunciado: "Ignoró por completo el incidente.", esCorrecta: false },
-            { enunciado: "Se distanció de su familia.", esCorrecta: false },
+            { enunciado: "No soñar mientras caminamos", esCorrecta: false },
+            { enunciado: "Vender todo al precio justo", esCorrecta: false },
+            { enunciado: "Tener pollitos para venderlos", esCorrecta: false },
           ],
-          preguntaActual: "¿Cuál fue el efecto de la reflexión de la niña sobre lo sucedido?",
+          preguntaActual: "¿Cuál fue la valiosa lección aprendida?",
         };
       case 9:
         return {
           opcionesRespuesta: [
-            { enunciado: "La reflexión sobre lo sucedido.", esCorrecta: true },
-            { enunciado: "La risa de otros al ver su caída.", esCorrecta: false },
-            { enunciado: "El apoyo incondicional de su familia.", esCorrecta: false },
-            { enunciado: "La insistencia de su madre en vender la leche.", esCorrecta: false },
+            { enunciado: "La consoló diciéndole que no se preocupara y que solo fue un accidente", esCorrecta: true },
+            { enunciado: "La regaño por lo sucedido", esCorrecta: false },
+            { enunciado: "Le perdonó", esCorrecta: false },
+            { enunciado: "Le cobro lo que valia la leche derramada", esCorrecta: false },
           ],
-          preguntaActual: "¿Qué causó que la niña reconociera su propia ambición como la causa de su desgracia?",
+          preguntaActual: "¿Cuál fue el consejo de la madre ante lo sucedido?",
         };
       case 10:
         return {
           opcionesRespuesta: [
-            { enunciado: "Reflexionó sobre la importancia de la humildad.", esCorrecta: true },
+            { enunciado: "Reflexionó sobre la importancia de vivir el presente.", esCorrecta: true },
             { enunciado: "Decidió buscar otra fuente de ingresos.", esCorrecta: false },
             { enunciado: "La niña continuó siendo ambiciosa.", esCorrecta: false },
             { enunciado: "La niña abandonó la granja y se fue de casa.", esCorrecta: false },
@@ -617,78 +617,78 @@ const obtenerPreguntasLasDosVasijas = (numeroPregunta) => {
       case 1:
         return {
           opcionesRespuesta: [
-            { enunciado: "La necesidad de vender agua para ganar monedas.", esCorrecta: true },
-            { enunciado: "La falta de un burro de carga.", esCorrecta: false },
-            { enunciado: "El deseo de recoger agua para su hogar.", esCorrecta: false },
-            { enunciado: "La obligación de transportar agua en vasijas.", esCorrecta: false },
+            { enunciado: "La necesidad de vender agua para ganar monedas", esCorrecta: true },
+            { enunciado: "La falta de un burro de carga", esCorrecta: false },
+            { enunciado: "El deseo de recoger agua para su hogar", esCorrecta: false },
+            { enunciado: "La obligación de transportar agua en vasijas", esCorrecta: false },
           ],
-          preguntaActual: "¿Cuál fue la causa del trabajo del aguador en la India?",
+          preguntaActual: "¿Cuál fue la causa del trabajo del aguador en el oriente?",
         };
       case 2:
         return {
           opcionesRespuesta: [
-            { enunciado: "Sentirse avergonzada por no cumplir adecuadamente su deber.", esCorrecta: true },
-            { enunciado: "Conservar el agua de manera eficiente.", esCorrecta: false },
-            { enunciado: "Contribuir a la creación de belleza en el camino.", esCorrecta: false },
-            { enunciado: "Mostrar orgullo por cumplir su función a la perfección.", esCorrecta: false },
+            { enunciado: "Sentirse avergonzada por no cumplir adecuadamente su deber", esCorrecta: true },
+            { enunciado: "Conservar el agua de manera eficiente", esCorrecta: false },
+            { enunciado: "Contribuir a la creación de charcos en el camino", esCorrecta: false },
+            { enunciado: "Mostrar orgullo por cumplir su función a la perfección", esCorrecta: false },
           ],
-          preguntaActual: "¿Cuál fue el efecto de las grietas en la vasija agrietada durante el transporte de agua?",
+          preguntaActual: "¿Cuál causaba las grietas en la vasija agrietada durante el transporte de agua?",
         };
       case 3:
         return {
           opcionesRespuesta: [
-            { enunciado: "La comparación con la otra vasija.", esCorrecta: true },
-            { enunciado: "La falta de agua en su interior.", esCorrecta: false },
-            { enunciado: "Las hermosas flores en el camino.", esCorrecta: false },
-            { enunciado: "La incapacidad de cumplir su deber.", esCorrecta: false },
+            { enunciado: "La incapacidad de cumplir su deber", esCorrecta: true },
+            { enunciado: "La falta de agua en su interior", esCorrecta: false },
+            { enunciado: "Las hermosas flores en el camino", esCorrecta: false },
+            { enunciado: "Lo bien que realizaba su trabajo", esCorrecta: false },
           ],
           preguntaActual: "¿Qué causó que la vasija agrietada se sintiera avergonzada?",
         };
       case 4:
         return {
           opcionesRespuesta: [
-            { enunciado: "Reconfortarse al comprender su contribución.", esCorrecta: true },
-            { enunciado: "Sentirse más avergonzada.", esCorrecta: false },
-            { enunciado: "Perder confianza en sí misma.", esCorrecta: false },
-            { enunciado: "Dejar de transportar agua.", esCorrecta: false },
+            { enunciado: "Reconfortarse al comprender su contribución", esCorrecta: true },
+            { enunciado: "Sentirse más avergonzada", esCorrecta: false },
+            { enunciado: "Perder confianza en sí misma", esCorrecta: false },
+            { enunciado: "Dejar de transportar agua", esCorrecta: false },
           ],
           preguntaActual: "¿Cuál fue el efecto de la compasión y sabiduría del aguador en la vasija agrietada?",
         };
       case 5:
         return {
           opcionesRespuesta: [
-            { enunciado: "La contribución a la creación de belleza.", esCorrecta: true },
-            { enunciado: "Las hermosas flores en el camino.", esCorrecta: false },
-            { enunciado: "La comparación con la otra vasija.", esCorrecta: false },
-            { enunciado: "La falta de agua en su interior.", esCorrecta: false },
+            { enunciado: "La contribución a la creación de belleza", esCorrecta: true },
+            { enunciado: "Las hermosas flores en el camino", esCorrecta: false },
+            { enunciado: "La comparación con la otra vasija", esCorrecta: false },
+            { enunciado: "La falta de agua en su interior", esCorrecta: false },
           ],
           preguntaActual: "¿Qué causó que la vasija agrietada se sintiera reconfortada?",
         };
       case 6:
         return {
           opcionesRespuesta: [
-            { enunciado: "Sentirse inspirada para mejorar.", esCorrecta: true },
-            { enunciado: "Dejar de transportar agua.", esCorrecta: false },
-            { enunciado: "Perder confianza en sí misma.", esCorrecta: false },
-            { enunciado: "Ignorar su contribución.", esCorrecta: false },
+            { enunciado: "Sentirse inspirada para mejorar", esCorrecta: true },
+            { enunciado: "Dejar de transportar agua", esCorrecta: false },
+            { enunciado: "Perder confianza en sí misma", esCorrecta: false },
+            { enunciado: "Ignorar su contribución", esCorrecta: false },
           ],
           preguntaActual: "¿Cuál fue el efecto de la lección transmitida por el aguador a la vasija agrietada?",
         };
       case 7:
         return {
           opcionesRespuesta: [
-            { enunciado: "La compasión y sabiduría del aguador.", esCorrecta: true },
+            { enunciado: "Se sentia avergonzada por derramar el agua", esCorrecta: true },
             {
-              enunciado: "La necesidad de distraerla.",
+              enunciado: "La arrogancia de la otra vasija",
               esCorrecta: false,
             },
             {
-              enunciado: "La falta de agua en su interior.",
+              enunciado: "La comparación con el aguador",
               esCorrecta: false,
             },
-            { enunciado: "La comparación con la otra vasija.", esCorrecta: false },
+            { enunciado: "La falta de empatía de la vasija", esCorrecta: false },
           ],
-          preguntaActual: "¿Qué causó que el aguador mostrara las hermosas flores a la vasija agrietada?",
+          preguntaActual: "¿Cuál fue la causa para que el aguador mostrara las hermosas flores a la vasija agrietada?",
         };
       case 8:
         return {

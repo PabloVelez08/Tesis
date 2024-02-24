@@ -6,11 +6,7 @@ import Swal from "sweetalert2";
 import { mezclasOpciones } from "./mezclarOpciones";
 
 import "../css/login.css";
-import baseURL from "./urlConexionDataBase";
 
-const urlDabaBase = axios.create({
-  baseURL: baseURL,
-});
 const RestaurarContrasena = () => {
   const navigate = useNavigate();
 
@@ -48,7 +44,7 @@ const RestaurarContrasena = () => {
     const userEstudiante = sessionStorage.getItem("usuarioParaRecuperarContrasena");
 
     if (animal && color && accion) {
-      urlDabaBase.put("/actualizarContrasena", {
+      axios.put(`${import.meta.env.VITE_BACKEND_URL}/actualizarContrasena`, {
             userEstudiante,
             animal,
             color,

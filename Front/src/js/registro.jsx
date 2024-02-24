@@ -27,11 +27,7 @@ import SonidoNadar from "../../public/audios/login/Nadar.mp3";
 import SonidoSaltar from "../../public/audios/login/Saltar.mp3";
 import SonidoBoton from "../../public/audios/botones/SonidoBoton.mp3";
 import { mezclasOpciones } from "./mezclarOpciones";
-import baseURL from "./urlConexionDataBase";
 
-const urlDabaBase = axios.create({
-  baseURL: baseURL,
-});
 const FormularioRegistro = () => {
   const navigate = useNavigate();
 
@@ -83,12 +79,12 @@ const FormularioRegistro = () => {
   );
 
   const cambiarNombre = (event) => {
-    const nuevoNombre = event.target.value.replace(/[^a-zñ]/g, "");
+    const nuevoNombre = event.target.value.replace(/[^a-zA-ZñÑ]/g, "");
     setNombre(nuevoNombre.toLowerCase());
   };
 
   const cambiarApellido = (event) => {
-    const nuevoApellido = event.target.value.replace(/[^a-zñ]/g, "");
+    const nuevoApellido = event.target.value.replace(/[^a-zA-ZñÑ]/g, "");
     setApellido(nuevoApellido.toLowerCase());
   };
 
@@ -101,7 +97,7 @@ const FormularioRegistro = () => {
   };
 
   const cambiarCodigoTutor = (event) => {
-    const nuevoUsuarioTutor = event.target.value.replace(/[^a-zñ]/g, "");
+    const nuevoUsuarioTutor = event.target.value.replace(/[^a-zA-ZñÑ]/g, "");
     setUsuarioTutor(nuevoUsuarioTutor.toLowerCase());
   };
 
@@ -184,8 +180,8 @@ const FormularioRegistro = () => {
       const apellidoCapitalizado = convertirInicialEnMayuscula(apellido);
 
       if (opcionSeleccionada === "Docente") {
-        urlDabaBase
-          .post("/registrarTutor", {
+        axios
+          .post(`${import.meta.env.VITE_BACKEND_URL}/registrarTutor`, {
             nombre: nombre,
             apellido: apellido,
             animal: animal,
@@ -218,8 +214,8 @@ const FormularioRegistro = () => {
           });
       }
       if (opcionSeleccionada === "Estudiante" && usuarioTutor) {
-        urlDabaBase
-          .post("/validarEstudiante", {
+        axios
+          .post(`${import.meta.env.VITE_BACKEND_URL}/validarEstudiante`, {
             usuarioTutor: usuarioTutor,
             nombre: nombre,
             apellido: apellido,

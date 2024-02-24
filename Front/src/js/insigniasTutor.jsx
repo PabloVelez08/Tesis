@@ -13,11 +13,7 @@ import informacionLecturas from "../../public/lecturas/informacionLecturas";
 import axios from "axios";
 import "../css/insignias.css";
 import BarraLogos from "./barraLogos";
-import baseURL from "./urlConexionDataBase";
 
-const urlDabaBase = axios.create({
-  baseURL: baseURL,
-});
 
 function InsigniasTutor() {
   const navigate = useNavigate();
@@ -83,8 +79,8 @@ function InsigniasTutor() {
   const obtenerInsigniasObtenidas = async () => {
     try {
       const usuario = sessionStorage.getItem("usuario");
-      const response = await urlDabaBase.get(
-        `/obtenerInsignias`,
+      const response = await axios.get(
+        `${import.meta.env.VITE_BACKEND_URL}/obtenerInsignias`,
         {
           params: {
             usuario,
@@ -118,8 +114,8 @@ function InsigniasTutor() {
   };
 
   const obtenerEstudiantes = () => {
-    urlDabaBase
-      .get("/obtenerEstudiantesValidados", {
+    axios
+      .get(`${import.meta.env.VITE_BACKEND_URL}/obtenerEstudiantesValidados`, {
         params: {
           usuario: sessionStorage.getItem("usuario"),
         },
@@ -141,8 +137,8 @@ function InsigniasTutor() {
   const obtenerInsigniasObtenidasPorEstudiante = async (estudianteSeleccionado) => {
     try {
       const usuario = estudianteSeleccionado;
-      const response = await urlDabaBase.get(
-        `/obtenerInsignias`,
+      const response = await axios.get(
+        `${import.meta.env.VITE_BACKEND_URL}/obtenerInsignias`,
         {
           params: {
             usuario

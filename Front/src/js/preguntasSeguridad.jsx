@@ -7,11 +7,7 @@ import useSound from "use-sound";
 import SonidoBoton from "../../public/audios/botones/SonidoBoton.mp3";
 
 import "../css/acercaDe.css";
-import baseURL from "./urlConexionDataBase";
 
-const urlDabaBase = axios.create({
-  baseURL: baseURL,
-});
 function AcercaDe() {
   const navigate = useNavigate();
   const [mascota, setMascota] = useState("");
@@ -73,7 +69,7 @@ function AcercaDe() {
         const nombreCapitalizado = convertirInicialEnMayuscula(nombre);
         const apellidoCapitalizado = convertirInicialEnMayuscula(apellido);
 
-        urlDabaBase.post("/registrarEstudiante", {
+        axios.post(`${import.meta.env.VITE_BACKEND_URL}/registrarEstudiante`, {
             idTutor: sessionStorage.getItem("idTutor"),
             nombre: nombre,
             apellido: apellido,
@@ -82,7 +78,7 @@ function AcercaDe() {
             accion: sessionStorage.getItem("accion"),
             }).then((response) => {
                 if(response.data.success){
-                  urlDabaBase.post("/registrarPreguntasDeSeguridadEstudiante", {
+                  axios.post(`${import.meta.env.VITE_BACKEND_URL}/registrarPreguntasDeSeguridadEstudiante`, {
                         nombre: nombre,
                         apellido: apellido,
                         mascota: mascota,

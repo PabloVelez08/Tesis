@@ -29,11 +29,7 @@ import { mezclasOpciones } from "./mezclarOpciones";
 import { generarNumeroAleatorio } from "./generarNumeroAleatorio";
 
 import "../css/login.css";
-import baseURL from "./urlConexionDataBase";
 
-const urlDabaBase = axios.create({
-  baseURL: baseURL,
-});
 const PreguntasSeguridad = [
   {
     pregunta: "¿Cuál es el nombre de su primera mascota?",
@@ -102,7 +98,7 @@ const Login = () => {
         console.log("Respuesta: ", respuesta.value);
         console.log("Tipo: ", preguntaAleatoria.tipo);
         
-        const response = await urlDabaBase.post("/validarPreguntaSeguridadEstudiante", {
+        const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/validarPreguntaSeguridadEstudiante`, {
           tipoPregunta: preguntaAleatoria.tipo,
           respuesta: respuesta.value,
         });
@@ -166,7 +162,7 @@ const Login = () => {
   );
 
   const cambiarUsuario = (event) => {
-    const nuevoUsuario = event.target.value.replace(/[^a-zñ]/g, "");
+    const nuevoUsuario = event.target.value.replace(/[^a-zA-ZñÑ]/g, "");
     setUsuario(nuevoUsuario.toLowerCase());
   };
 
@@ -219,7 +215,7 @@ const Login = () => {
 
     try {
       if (usuario && animal && color && accion) {
-        const response = await urlDabaBase.post("/login", {
+        const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/login`, {
           usuario,
           animal,
           color,
@@ -228,8 +224,8 @@ const Login = () => {
 
         if (response.data.success) {
           if (response.data.message === "Estudiante") {
-            const estudianteResponse = await urlDabaBase.get(
-              "/obtenerNombreEstudiante",
+            const estudianteResponse = await axios.get(
+              `${import.meta.env.VITE_BACKEND_URL}/obtenerNombreEstudiante`,
               {
                 params: {
                   usuario,
@@ -259,8 +255,8 @@ const Login = () => {
               });
             }
           } else if (response.data.message === "Tutor") {
-            const tutorResponse = await urlDabaBase.get(
-              "/obtenerNombreTutor",
+            const tutorResponse = await axios.get(
+              `${import.meta.env.VITE_BACKEND_URL}/obtenerNombreTutor`,
               {
                 params: {
                   usuario,
@@ -326,8 +322,8 @@ const Login = () => {
   };
 
   const irRestaurarContrasena = async () => {
-    const response = await urlDabaBase.post(
-      "/validarUsuarioEstudiante",
+    const response = await axios.post(
+      `${import.meta.env.VITE_BACKEND_URL}/validarUsuarioEstudiante`,
       {
         usuario,
       }
@@ -348,8 +344,8 @@ const Login = () => {
         confirmButtonColor: "yellow",
       });
     } else if (response.data.success) {
-      const usuarioEstudiante = await urlDabaBase.get(
-        "/obtenerNombreEstudiante",
+      const usuarioEstudiante = await axios.get(
+        `${import.meta.env.VITE_BACKEND_URL}/obtenerNombreEstudiante`,
         {
           params: {
             usuario,

@@ -6,11 +6,6 @@ import Swal from "sweetalert2";
 import axios from "axios";
 import "../css/aceptarEstudiantes.css";
 
-import baseURL from "./urlConexionDataBase";
-
-const urlDabaBase = axios.create({
-  baseURL: baseURL,
-});
 
 function ListaEstudiantes() {
   const navigate = useNavigate();
@@ -25,8 +20,8 @@ function ListaEstudiantes() {
   }, [navigate]);
 
   const obtenerEstudiantes = () => {
-    urlDabaBase
-      .get("/obtenerEstudiantesValidados", {
+    axios
+      .get(`${import.meta.env.VITE_BACKEND_URL}/obtenerEstudiantesValidados`, {
         params: {
           usuario: sessionStorage.getItem("usuario"),
         },
@@ -62,7 +57,7 @@ function ListaEstudiantes() {
     }).then((result) => {
       if (result.isConfirmed) {
         axios
-          .delete("http://localhost:3001/eliminarEstudiante", {
+          .delete(`${import.meta.env.VITE_BACKEND_URL}/eliminarEstudiante`, {
             params: {
               userEstudiante: userEstudiante,
               userTutor: sessionStorage.getItem("usuario"),

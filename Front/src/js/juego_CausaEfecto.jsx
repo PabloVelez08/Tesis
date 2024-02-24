@@ -13,11 +13,7 @@ import informacionLecturas from "../../public/lecturas/informacionLecturas";
 import SonidoBoton from "../../public/audios/botones/SonidoBoton.mp3";
 
 import "../css/causaEfecto.css";
-import baseURL from "./urlConexionDataBase";
 
-const urlDabaBase = axios.create({
-  baseURL: baseURL,
-});
 const CausaEfecto = () => {
   const navigate = useNavigate();
   const [respuestaSeleccionada, setRespuestaSeleccionada] = useState(null);
@@ -270,8 +266,8 @@ const [reproducirBoton] = useSound(SonidoBoton);
       insigniaObtenida,
     };
 
-    urlDabaBase
-      .post("/guardarPuntuacion", puntuacion)
+    axios
+      .post(`${import.meta.env.VITE_BACKEND_URL}/guardarPuntuacion`, puntuacion)
       .then((res) => {
         console.log(res);
       })

@@ -109,11 +109,6 @@ const MostrarLectura = ({ tituloLectura }) => {
           verlo y, llenos de alegría, lo llamaron "Inti". Lo criaron con
           paciencia, responsabilidad y cariño a lo largo de su crecimiento.
           <br />
-          El toro asustó tanto a la joven con su actitud y mirada que ella cayó
-          desmayada. Sus padres, preocupados, la socorrieron de inmediato y la
-          llevaron de regreso a su casa, que tenía el número 1028, donde
-          intentaron curarla de su terrible espanto.
-          <br />
           Inti, con el tiempo, se transformó en un cóndor grande, valiente y
           amoroso, siguiendo el ejemplo de sus padres. Sin embargo, un día, sus
           progenitores se enfermaron, e Inti necesitó aplicar todo lo que le
@@ -167,7 +162,7 @@ const MostrarLectura = ({ tituloLectura }) => {
     case "El Oso de anteojos":
       return (
         <p className="parrafos">
-          En las majestuosas montañas de los Andes, en países como Ecuador, vive
+          En las majestuosas montañas de los Andes, en Ecuador, vive
           un animal fascinante llamado el "oso de anteojos". Su nombre se debe a
           las manchas de pelo blanco alrededor de sus ojos, que parecen
           anteojos. Aunque se llame "oso de anteojos", no usa lentes, pero es
@@ -208,7 +203,7 @@ const MostrarLectura = ({ tituloLectura }) => {
           <br />
           Los padres franciscanos le encomendaron la titánica tarea de construir
           un atrio para la iglesia de San Francisco en Quito. Aunque la
-          recompensa ofrecida era considerable, el plazo era estricto: seis
+          recompensa ofrecida era una gran cantidad de dinero, el plazo era estricto: seis
           meses, y de no cumplirlo, no recibiría pago alguno.
           <br />
           Con el tiempo agotándose y la obra lejos de completarse debido a su
@@ -247,9 +242,8 @@ const MostrarLectura = ({ tituloLectura }) => {
           sumergía en la lectura en su biblioteca y se concedía una "merecida"
           siesta antes de bañarse y alistarse para salir por la tarde.
           <br />
-          Caminando por las calles, se dirigía a la tienda de vinos de Mariana,
-          conocida como "la Chola". Tras algunas copas, disfrutaba de la bajada
-          de Santa Catalina y hacía una parada en la tienda de vinos de Mariana
+          Caminando por las calles, disfrutaba de la bajada de Santa Catalina y hacía una parada
+          en la tienda de vinos de Mariana, conocida como "la Chola",
           para tomar mistelas, permaneciendo allí hasta la noche. De regreso a
           casa, Don Ramón ya mostraba los efectos del alcohol.
           <br />
@@ -271,7 +265,7 @@ const MostrarLectura = ({ tituloLectura }) => {
         <p className="parrafos">
           En la exuberante costa ecuatoriana, Guayaquil se erige como una ciudad
           fascinante, fusionando su rica historia con una modernidad vibrante.
-          Fundada en 1538 por Sebastián de Belalcázar, la ciudad ha sido testigo
+          Fundada en 1535 por Sebastián de Belalcázar, la ciudad ha sido testigo
           de eventos históricos cruciales, desde su participación en la
           independencia hasta convertirse en un puerto estratégico para la
           exportación de productos ecuatorianos.
@@ -283,18 +277,7 @@ const MostrarLectura = ({ tituloLectura }) => {
           comerciales. Es un punto de encuentro para locales y visitantes, donde
           la modernidad se encuentra con la tradición.
           <br />
-          En la exuberante costa ecuatoriana, Guayaquil se erige como una ciudad
-          fascinante, fusionando su rica historia con una modernidad vibrante.
-          Fundada en 1538 por Sebastián de Belalcázar, la ciudad ha sido testigo
-          de eventos históricos cruciales, desde su participación en la
-          independencia hasta convertirse en un puerto estratégico para la
-          exportación de productos ecuatorianos. A orillas del majestuoso río
-          Guayas, el Malecón 2000 se presenta como un símbolo de revitalización
-          urbana. Este paseo marítimo ofrece una experiencia única, con vistas
-          impresionantes de la ciudad y una diversidad de atracciones que van
-          desde parques hasta museos y centros comerciales. Es un punto de
-          encuentro para locales y visitantes, donde la modernidad se encuentra
-          con la tradición. La gastronomía guayaquileña es un festín para los
+          La gastronomía guayaquileña es un festín para los
           sentidos, reflejo de la diversidad cultural de la región. Platos
           emblemáticos como el encocado de pescado y el ceviche invitan a los
           visitantes a disfrutar de los sabores auténticos de la costa. La
@@ -309,13 +292,7 @@ const MostrarLectura = ({ tituloLectura }) => {
           marítimo, sino que también se ha convertido en un símbolo de progreso
           y desarrollo.
           <br />
-          El entorno natural que rodea la ciudad no pasa desapercibido.
-          Guayaquil, conocida como la "Perla del Pacífico", se destaca como una
-          joya en la costa ecuatoriana. Este apelativo se debe a su ubicación
-          estratégica junto al océano Pacífico y a la riqueza que aporta a la
-          región. La ciudad no solo ha sido un punto clave en el comercio
-          marítimo, sino que también se ha convertido en un símbolo de progreso
-          y desarrollo. La "Perla del Pacífico" refleja la belleza de Guayaquil,
+          La "Perla del Pacífico" es un reflejo de la diversidad,
           no solo en su paisaje costero sino también en su vitalidad cultural y
           su capacidad para fusionar su pasado histórico con la modernidad. Este
           apodo resuena en la arquitectura, en la hospitalidad de su gente y en
@@ -824,7 +801,7 @@ const MostrarLectura = ({ tituloLectura }) => {
       return (
         <p className="parrafos">
           En una diminuta isla en medio del vasto océano, se alzaba la Fuente de
-          los Cien Talentos. Todos los recién nacidos que eran bañados en alguno
+          los Talentos. Todos los recién nacidos que eran bañados en alguno
           de sus cien chorros adquirían un don especial que podían compartir con
           sus seres queridos.
           <br />
@@ -853,7 +830,7 @@ const MostrarLectura = ({ tituloLectura }) => {
           <br />
           En ese instante, una lluvia de humildad se desató sobre la isla,
           bañando a todos. Poco a poco, volvieron a tratarse con amor y respeto.
-          La Fuente de los Cien Talentos, entonces, volvió a fluir por sus cien
+          La Fuente de los Talentos, entonces, volvió a fluir por sus cien
           caños para que los nuevos nacimientos pudieran disfrutar de sus
           talentos. Esta vez, padres y amigos se encargarían de enseñarles a
           usar sus dones de manera adecuada, sin vanagloriarse de ellos.
@@ -987,7 +964,8 @@ const MostrarLectura = ({ tituloLectura }) => {
           Desde ese día, la niña entendió que no debía contar los pollitos antes
           de que salieran del huevo, y que lo más valioso era vivir el presente
           sin hacer planes basados en algo que no había sucedido.
-          <br />Y así, aprendió una valiosa lección: no contar con lo que no se
+          <br />
+          Y así, aprendió una valiosa lección: no contar con lo que no se
           tiene.
         </p>
       );

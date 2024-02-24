@@ -6,11 +6,7 @@ import BarraLogos from "./barraLogos";
 
 
 import "../css/tablaLogros.css";
-import baseURL from "./urlConexionDataBase";
 
-const urlDabaBase = axios.create({
-  baseURL: baseURL,
-});
 function TablaLogrosTutor() {
   const navigate = useNavigate();
   const [estudiantes, setEstudiantes] = useState([]);
@@ -29,8 +25,8 @@ function TablaLogrosTutor() {
   }, [navigate]);
 
   const obtenerEstudiantesParaCombobox = () => {
-    urlDabaBase
-      .get("/obtenerEstudiantesValidados", {
+    axios
+      .get(`${import.meta.env.VITE_BACKEND_URL}/obtenerEstudiantesValidados`, {
         params: {
           usuario: sessionStorage.getItem("usuario"),
         },
@@ -47,8 +43,8 @@ function TablaLogrosTutor() {
   };
 
   const obtenerEstudiantes = () => {
-    urlDabaBase
-      .get("/obtenerDatosEstudiantesParaTutor", {
+    axios
+      .get(`${import.meta.env.VITE_BACKEND_URL}/obtenerDatosEstudiantesParaTutor`, {
         params: {
           usuarioTutor: sessionStorage.getItem("usuario"),
           usuarioEstudiante: valorSeleccionado,
@@ -56,7 +52,10 @@ function TablaLogrosTutor() {
         },
       })
       .then((response) => {
-        setEstudiantes(response.data);
+        const estudiantesOrdenados = response.data.sort((a, b) => {
+          return b.PREGUNTAS_CORRECTAS - a.PREGUNTAS_CORRECTAS;
+        });
+        setEstudiantes(estudiantesOrdenados);
         setHayEstudiantes(response.data.length > 0);
       });
   };
