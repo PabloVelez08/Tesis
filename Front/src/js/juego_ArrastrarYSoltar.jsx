@@ -323,7 +323,8 @@ const ArrastrarYSoltar = () => {
       reproducirInsigniaConseguida();
     } else {
       reproducirAplausos();
-      imagenInsignia = `<p style="border: 1px solid black; background: #dcdcdc; font-weight: bold;">Intentelo de nuevo, lo logrará !!</p>`;
+      imagenInsignia = `<p style="border: 1px solid black; background: #dcdcdc; font-weight: bold;">
+      ¡Inténtelo de nuevo! Seguro lo logrará.</p>`;
     }
 
     Swal.fire({

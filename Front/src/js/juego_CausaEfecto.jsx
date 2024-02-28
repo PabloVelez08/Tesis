@@ -294,7 +294,8 @@ const [reproducirBoton] = useSound(SonidoBoton);
       imagenInsignia = `<p><img src="${urlInsignia}" alt="Imagen" style="max-width: 100%; height: 50px;"></p>`;
     } else {
       reproducirAplausos();
-      imagenInsignia = `<p style="border: 1px solid black; background: #dcdcdc; font-weight: bold;">Intentelo de nuevo, lo logrará !!</p>`;
+      imagenInsignia = `<p style="border: 1px solid black; background: #dcdcdc; font-weight: bold;">
+      ¡Inténtelo de nuevo! Seguro lo logrará.</p>`;
     }
 
     Swal.fire({
