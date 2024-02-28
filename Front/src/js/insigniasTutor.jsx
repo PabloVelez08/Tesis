@@ -193,11 +193,11 @@ function InsigniasTutor() {
             Lista de estudiantes
           </option>
           {estudiantes.map((estudiante, index) => (
-            <option key={index} value={estudiante.user_estudiante}>
+            <option key={index} value={estudiante.USER_ESTUDIANTE}>
               {`${convertirInicialEnMayuscula(
-                estudiante.nombre_estudiante
+                estudiante.NOMBRE_ESTUDIANTE
               )} ${convertirInicialEnMayuscula(
-                estudiante.apellido_estudiante
+                estudiante.APELLIDO_ESTUDIANTE
               )}`}
             </option>
           ))}

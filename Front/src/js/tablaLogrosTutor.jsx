@@ -119,12 +119,12 @@ function TablaLogrosTutor() {
               {estudiantesParaCombobox.map((estudiantesParaCombobox, index) => (
                 <option
                   key={index}
-                  value={estudiantesParaCombobox.user_estudiante}
+                  value={estudiantesParaCombobox.USER_ESTUDIANTE}
                 >
                   {`${convertirInicialEnMayuscula(
-                    estudiantesParaCombobox.nombre_estudiante
+                    estudiantesParaCombobox.NOMBRE_ESTUDIANTE
                   )} ${convertirInicialEnMayuscula(
-                    estudiantesParaCombobox.apellido_estudiante
+                    estudiantesParaCombobox.APELLIDO_ESTUDIANTE
                   )}`}
                 </option>
               ))}
@@ -167,7 +167,7 @@ function TablaLogrosTutor() {
             </thead>
             <tbody>{estudiantes.map(renderizarEstudiante)}</tbody>
           </Table>
-        </div>
+          </div>
       ) : (
         <div className="contenedorAcercade mx-auto text-center">
           <p className="mensajeBienvenida">

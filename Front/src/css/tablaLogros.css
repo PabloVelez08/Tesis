@@ -1,30 +1,28 @@
 .tabla-scroll {
-  border: 2px solid #ccc;
   background-color: white;
   overflow-y: auto;
   max-height: 330px;
   margin-top: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.tabla-scroll thead,
-.tabla-scroll-tutor thead {
-  position: sticky;
-  top: 0;
-  background-color: #fff;
-  z-index: 1;
 }
 
 .tabla-scroll-tutor {
-  border: 2px solid #ccc;
   background-color: white;
   max-height: 320px;
   overflow-y: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.tabla-scroll-tutor thead{
+  position: sticky;
+  top: 0; /* La cabecera se mantendrá fija en la parte superior del contenedor */
+  background-color: #fff;
+  z-index: 1; /* Asegura que la cabecera esté sobre el contenido desplazado */
+}
+
+.tabla-scroll thead{
+  position: sticky;
+  top: -1px; /* La cabecera se mantendrá fija en la parte superior del contenedor */
+  background-color: #fff;
+  z-index: 1; /* Asegura que la cabecera esté sobre el contenido desplazado */
 }
 
 

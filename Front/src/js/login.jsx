@@ -233,12 +233,12 @@ const Login = () => {
               }
             );
             const nombreUsuario = convertirInicialEnMayuscula(
-              estudianteResponse.data[0].nombre_estudiante
+              estudianteResponse.data[0].NOMBRE_ESTUDIANTE
             );
             const apellidoUsuario = convertirInicialEnMayuscula(
-              estudianteResponse.data[0].apellido_estudiante
+              estudianteResponse.data[0].APELLIDO_ESTUDIANTE
             );
-            if (estudianteResponse.data[0].usuario_validado === 1) {
+            if (estudianteResponse.data[0].USUARIO_VALIDADO === 1) {
               sessionStorage.setItem("usuario", usuario);
               sessionStorage.setItem(
                 "nombre",
@@ -264,10 +264,10 @@ const Login = () => {
               }
             );
             const nombreTutor = convertirInicialEnMayuscula(
-              tutorResponse.data[0].nombre_tutor
+              tutorResponse.data[0].NOMBRE_TUTOR
             );
             const apellidoTutor = convertirInicialEnMayuscula(
-              tutorResponse.data[0].apellido_tutor
+              tutorResponse.data[0].APELLIDO_TUTOR
             );
             sessionStorage.setItem("usuario", usuario);
             sessionStorage.setItem("nombre", nombreTutor + " " + apellidoTutor);

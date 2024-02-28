@@ -88,14 +88,14 @@ function ListaEstudiantes() {
 
   function renderizarEstudiante(estudiante) {
     const nombreConMayuscula = convertirInicialEnMayuscula(
-      estudiante.nombre_estudiante
+      estudiante.NOMBRE_ESTUDIANTE
     );
     const apellidoConMayuscula = convertirInicialEnMayuscula(
-      estudiante.apellido_estudiante
+      estudiante.APELLIDO_ESTUDIANTE
     );
 
     return (
-      <tr key={estudiante.user_estudiante}>
+      <tr key={estudiante.USER_ESTUDIANTE}>
         <td>
           {nombreConMayuscula} {apellidoConMayuscula}
         </td>
@@ -104,9 +104,9 @@ function ListaEstudiantes() {
             variant="danger"
             onClick={() =>
               eliminarEstudiante(
-                estudiante.user_estudiante,
-                estudiante.nombre_estudiante,
-                estudiante.apellido_estudiante
+                estudiante.USER_ESTUDIANTE,
+                estudiante.NOMBRE_ESTUDIANTE,
+                estudiante.APELLIDO_ESTUDIANTE
               )
             }
           >
