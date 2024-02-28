@@ -102,7 +102,7 @@ const obtenerPreguntasLaOllaDelPanecillo = (numeroPregunta) => {
           {
             id: 2,
             enunciado:
-              "La mujer recuperada del asombro agradeció a la princesa y salió del palacio.",
+              "La mujer agradeció a la princesa y salió del palacio.",
           },
           {
             id: 3,
@@ -158,11 +158,11 @@ const obtenerPreguntasLaOllaDelPanecillo = (numeroPregunta) => {
           {
             id: 1,
             enunciado:
-              "La mujer observó en un trono lujoso a una bella princesa.",
+              "La mujer descendió hasta el fondo de la olla.",
           },
           {
             id: 2,
-            enunciado: "La mujer descendió hasta el fondo de la olla.",
+            enunciado: "La mujer observó en un trono lujoso a una bella princesa.",
           },
           {
             id: 3,
@@ -227,7 +227,7 @@ const obtenerPreguntasTioPumaYTioZorro = (numeroPregunta) => {
           },
           {
             id: 2,
-            enunciado: "Tío Puma anunció que sería el almuerzo de Tío Zorro.",
+            enunciado: "Tío Puma anunció que Tío Zorro sería su almuerzo.",
           },
           {
             id: 3,
@@ -243,7 +243,7 @@ const obtenerPreguntasTioPumaYTioZorro = (numeroPregunta) => {
           {
             id: 1,
             enunciado:
-              "Tío Zorro escuchó un rugido cercano que lo llenó de temor.",
+              "Tío Zorro escuchó un sonido cercano que lo llenó de temor.",
           },
           {
             id: 2,
@@ -252,7 +252,7 @@ const obtenerPreguntasTioPumaYTioZorro = (numeroPregunta) => {
           },
           {
             id: 3,
-            enunciado: "Tío Puma abrió los brazos para atrapar al capibara.",
+            enunciado: "Tío Puma se preparó para atrapar al capibara.",
           },
         ],
         preguntaActual: "Ordena cronológicamente los siguientes eventos",
@@ -262,7 +262,7 @@ const obtenerPreguntasTioPumaYTioZorro = (numeroPregunta) => {
         opcionesRespuesta: [
           {
             id: 1,
-            enunciado: "Tío Zorro su asusto al oír el rugido de Tío Puma.",
+            enunciado: "Tío Zorro su asusto al oír el sonido de Tío Puma.",
           },
           {
             id: 2,
@@ -279,7 +279,7 @@ const obtenerPreguntasTioPumaYTioZorro = (numeroPregunta) => {
           {
             id: 1,
             enunciado:
-              "Tío Zorro maquinó un plan al escuchar el rugido de Tío Puma.",
+              "Tío Zorro maquinó un plan al escuchar el sonido de Tío Puma.",
           },
           {
             id: 2,
@@ -303,7 +303,7 @@ const obtenerPreguntasTioPumaYTioZorro = (numeroPregunta) => {
           },
           {
             id: 2,
-            enunciado: "Tío Zorro anunció que sería el almuerzo de Tío Puma.",
+            enunciado: "ío Puma anunció que Tío Zorro sería su almuerzo.",
           },
           {
             id: 3,
@@ -403,7 +403,7 @@ const obtenerPreguntasTioPumaYTioZorro = (numeroPregunta) => {
           {
             id: 3,
             enunciado:
-              "Tío Puma no distinguió los capibaras por los rayos del sol.",
+              "Tío Puma esperaba que Tío Zorro le lance un capibara.",
           },
         ],
         preguntaActual: "Ordena cronológicamente los siguientes eventos",
@@ -422,12 +422,12 @@ const obtenerPreguntasElAncianoElNiñoYElBurro = (numeroPregunta) => {
         opcionesRespuesta: [
           {
             id: 1,
-            enunciado: "El anciano colocó al niño en el burro.",
+            enunciado: "La gente comentó que caminaban a pie teniendo un burro.",
           },
           {
             id: 2,
             enunciado:
-              "La gente comentó que caminaban a pie teniendo un burro.",
+              "El anciano colocó al niño en el burro.",
           },
           {
             id: 3,
@@ -740,7 +740,7 @@ const obtenerPreguntasLaPrincesaTristeDeSantaAna = (numeroPregunta) => {
           },
           {
             id: 3,
-            enunciado: "La princesa nunca logra devolver la luz al reino.",
+            enunciado: "El cerro toma el nombre de la virgen.",
           },
         ],
         preguntaActual: "Ordena cronológicamente los siguientes eventos",
@@ -794,7 +794,7 @@ const obtenerPreguntasLaPrincesaTristeDeSantaAna = (numeroPregunta) => {
           },
           {
             id: 3,
-            enunciado: "La maldición sobre el reino persiste durante muchos años.",
+            enunciado: "La maldición sobre el reino no fue levantada.",
           },
         ],
         preguntaActual: "Ordena cronológicamente los siguientes eventos",
@@ -851,11 +851,11 @@ const obtenerPreguntasLaCapaDelEstudiante = (numeroPregunta) => {
           },
           {
             id: 2,
-            enunciado: "Juan yace sin vida junto a la tumba al día siguiente.",
+            enunciado: "Los amigos descubren a Juan muerto junto a la tumba.",
           },
           {
             id: 3,
-            enunciado: "Los amigos descubren a Juan muerto junto a la tumba.",
+            enunciado: "La capa de Juan estaba clavada a la tapa del ataúd",
           },
         ],
         preguntaActual: "Ordena cronológicamente los siguientes eventos",
@@ -905,7 +905,7 @@ const obtenerPreguntasLaCapaDelEstudiante = (numeroPregunta) => {
           },
           {
             id: 2,
-            enunciado: "Juan yace sin vida junto a la tumba al día siguiente.",
+            enunciado: "Algo detuvo a Juan",
           },
           {
             id: 3,
@@ -923,7 +923,7 @@ const obtenerPreguntasLaCapaDelEstudiante = (numeroPregunta) => {
           },
           {
             id: 2,
-            enunciado: "Juan yace sin vida junto a la tumba al día siguiente.",
+            enunciado: "Los amigos de Juan le sugieren que empeñe su capa",
           },
           {
             id: 3,

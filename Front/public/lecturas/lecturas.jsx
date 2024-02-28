@@ -654,7 +654,7 @@ const MostrarLectura = ({ tituloLectura }) => {
       return (
         <p className="parrafos">
           En una calurosa mañana en la selva ecuatoriana, Tío Zorro recolectaba
-          frutas para su desayuno, cuando escuchó un rugido cercano que lo llenó
+          frutas para su desayuno, cuando escuchó un sonido cercano que lo llenó
           de temor. Era Tío Puma, un imponente felino que acechaba a los
           animales de la región. A pesar de su intimidante presencia, Tío Zorro,
           conocido por su astucia, no se dejaba amedrentar fácilmente.
@@ -676,9 +676,9 @@ const MostrarLectura = ({ tituloLectura }) => {
           perder tiempo, Tío Zorro subió a la colina y arrastró una pesada
           piedra hasta el borde del precipicio. Desde allí, le gritó a Tío Puma:
           <br />
-          - ¡Abre los brazos para atrapar al capibara!
+          - ¡Prepárate para atrapar al capibara!
           <br />
-          El grande Tío Puma, confiado, abrió sus brazos, y la piedra cayó sobre
+          El grande Tío Puma, confiado, se preparó, y la piedra cayó sobre
           él, dejándolo con un gran chichón en la cabeza que lo dejó
           incapacitado para cazar durante varios días. Una vez más, la astucia
           de Tío Zorro prevaleció sobre la fuerza bruta, salvándolo de
