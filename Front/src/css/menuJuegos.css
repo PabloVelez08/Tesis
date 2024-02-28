@@ -1,6 +1,9 @@
 .contenedorMenuJuegos {
-  width: 100%;
-  margin: 2% auto;
+   position: absolute;
+  top: 50%; /* Mantener fijo en el 40% del eje vertical */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
 }
 
 .botonesTutor{
@@ -13,7 +16,7 @@
   border-radius: 60px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9), -5px -15px 12px rgba(255, 255, 255, 0.8) inset;
-z-index: 3;
+  z-index: 3;
 }
 
 .botonesTutor:hover {
@@ -58,7 +61,7 @@ z-index: 3;
   margin: 25px 0;
   padding: 0%;
   width: 100%;
-  height: 60px;
+  height: 40%;
   font-size: 30px;
   border: none;
   border-radius: 60px;
@@ -66,12 +69,25 @@ z-index: 3;
   box-shadow: 10px 10px 10px #3b3b3bb6;
 }
 
-.mascotaMenuJuego{
+.mascotaMenuJuego {
   position: absolute;
-  top: 45%;
+  top: 40%; /* Mantener fijo en el 40% del eje vertical */
   left: 50%;
   transform: translate(-50%, -50%);
   width: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .mascotaMenuJuego {
+    width: 0px; /* Reducir tamaño en pantallas más pequeñas */
+  }
+  
+}
+
+@media screen and (max-width: 1220px) {
+  .botonLectura {
+    height: 65%; 
+  }
 }
 
 .fila-amarilla {
