@@ -23,7 +23,6 @@ function InsigniasTutor() {
 
   useEffect(() => {
     const obtenerDatosInsignias = async () => {
-      try {
         if (sessionStorage.getItem("usuario") === null) {
           navigate("/");
         } else {
@@ -56,9 +55,6 @@ function InsigniasTutor() {
                   lecturas,
                 };
               } else {
-                console.error(
-                  `El tipo de juego '${tipoDeJuego}' no está definido en informacionLecturas`
-                );
                 return null;
               }
             })
@@ -66,9 +62,7 @@ function InsigniasTutor() {
 
           setInsignias(insigniasData);
         }
-      } catch (error) {
-        console.error("Error al obtener datos de insignias:", error);
-      }
+
     };
     obtenerEstudiantes();
 
@@ -77,7 +71,6 @@ function InsigniasTutor() {
   }, [navigate]);
 
   const obtenerInsigniasObtenidas = async () => {
-    try {
       const usuario = sessionStorage.getItem("usuario");
       const response = await axios.get(
         `${import.meta.env.VITE_BACKEND_URL}/obtenerInsignias`,
@@ -89,7 +82,6 @@ function InsigniasTutor() {
       );
 
       const resultados = response.data;
-      console.log("Resultados de Insignias Obtenidas:", resultados);
 
       // Actualiza el estado de las insignias según el resultado de la consulta
       setInsignias((prevInsignias) =>
@@ -105,12 +97,7 @@ function InsigniasTutor() {
           })),
         }))
       );
-    } catch (error) {
-      console.error(
-        "Error al obtener información de insignias obtenidas:",
-        error
-      );
-    }
+
   };
 
   const obtenerEstudiantes = () => {
@@ -128,14 +115,12 @@ function InsigniasTutor() {
   const seleccionarComboBox = (event) => {
     const valorSeleccionado = event.target.value;
     setEstudianteSeleccionado(valorSeleccionado);
-    console.log("Estudiante seleccionado: ", valorSeleccionado);
 
     // Llamar a la función para obtener las insignias del estudiante seleccionado
     obtenerInsigniasObtenidasPorEstudiante(valorSeleccionado);
   };
 
   const obtenerInsigniasObtenidasPorEstudiante = async (estudianteSeleccionado) => {
-    try {
       const usuario = estudianteSeleccionado;
       const response = await axios.get(
         `${import.meta.env.VITE_BACKEND_URL}/obtenerInsignias`,
@@ -148,7 +133,6 @@ function InsigniasTutor() {
   
 
       const resultados = response.data;
-      console.log("Resultados de Insignias Obtenidas:", resultados);
 
       // Actualiza el estado de las insignias según el resultado de la consulta
       setInsignias((prevInsignias) =>
@@ -164,12 +148,7 @@ function InsigniasTutor() {
           })),
         }))
       );
-    } catch (error) {
-      console.error(
-        "Error al obtener información de insignias obtenidas:",
-        error
-      );
-    }
+
   };
 
   const convertirInicialEnMayuscula = (string) => {

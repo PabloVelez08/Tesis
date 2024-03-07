@@ -34,7 +34,6 @@ const [reproducirBoton] = useSound(SonidoBoton);
     }
 
     // Obtengo las opciones de respuesta y la pregunta actual
-    console.log("opcion 1:", opcion1);
     const { opcionesRespuesta: opciones, preguntaActual } =
       preguntasCausaEfecto(sessionStorage.getItem("tituloLectura"), opcion1);
 
@@ -83,34 +82,23 @@ const [reproducirBoton] = useSound(SonidoBoton);
     var opcion5;
 
     var variableComparacion = generarNumeroAleatorio(1, 10);
-    console.log("variable comparacion:", variableComparacion);
 
     if (sessionStorage.getItem("numeroPregunta") == 2) {
       while (variableComparacion == opcion1) {
         variableComparacion = generarNumeroAleatorio(1, 10);
-        console.log(
-          "variable comparacion dentro del while opcion2:",
-          variableComparacion
-        );
+
       }
       opcion2 = variableComparacion;
-      console.log("opcion 2 fuera de while:", opcion2);
       sessionStorage.setItem("opcion2", opcion2);
       cargarPreguntas(opcion2);
     } else if (sessionStorage.getItem("numeroPregunta") == 3) {
-      console.log("opcion 2 en 3:", opcion2);
       while (
         variableComparacion == opcion1 ||
         variableComparacion == sessionStorage.getItem("opcion2")
       ) {
         variableComparacion = generarNumeroAleatorio(1, 10);
-        console.log(
-          "variable comparacion dentro del while opcion3:",
-          variableComparacion
-        );
       }
       opcion3 = variableComparacion;
-      console.log("opcion 3 fuera de while:", opcion3);
       sessionStorage.setItem("opcion3", opcion3);
       cargarPreguntas(opcion3);
     } else if (sessionStorage.getItem("numeroPregunta") == 4) {
@@ -120,13 +108,8 @@ const [reproducirBoton] = useSound(SonidoBoton);
         variableComparacion == sessionStorage.getItem("opcion3")
       ) {
         variableComparacion = generarNumeroAleatorio(1, 10);
-        console.log(
-          "variable comparacion dentro del while opcion4:",
-          variableComparacion
-        );
       }
       opcion4 = variableComparacion;
-      console.log("opcion 4 fuera del while:", opcion4);
       sessionStorage.setItem("opcion4", opcion4);
       cargarPreguntas(opcion4);
     } else if (sessionStorage.getItem("numeroPregunta") == 5) {
@@ -137,13 +120,8 @@ const [reproducirBoton] = useSound(SonidoBoton);
         variableComparacion == sessionStorage.getItem("opcion4")
       ) {
         variableComparacion = generarNumeroAleatorio(1, 10);
-        console.log(
-          "variable comparacion dentro del while opcion5:",
-          variableComparacion
-        );
       }
       opcion5 = variableComparacion;
-      console.log("opcion 5 fuera del while:", opcion5);
       cargarPreguntas(opcion5);
     } else {
       ("que paso");
@@ -156,10 +134,7 @@ const [reproducirBoton] = useSound(SonidoBoton);
 
   const validarRespuestas = () => {
     contadorPreguntasCorrectas = sessionStorage.getItem("preguntasCorrectas");
-    console.log(
-      "Preguntas correctas:",
-      sessionStorage.getItem("preguntasCorrectas")
-    );
+
     if (respuestaSeleccionada !== null) {
       const respuestaSeleccionadaActual =
         opcionesRespuesta[respuestaSeleccionada];
@@ -171,43 +146,27 @@ const [reproducirBoton] = useSound(SonidoBoton);
           "preguntasCorrectas",
           contadorPreguntasCorrectas
         );
-        console.log(
-          "Respuesta correcta despues de acertar:",
-          contadorPreguntasCorrectas
-        );
+
         // Puedes realizar acciones adicionales aqui
       }
-      console.log(
-        "Respuesta seleccionada:",
-        respuestaSeleccionada !== null
-          ? opcionesRespuesta[respuestaSeleccionada].enunciado
-          : "Ninguna respuesta seleccionada"
-      );
+
     }
   };
 
   const avanzarPregunta = () => {
     contadorPregunta = sessionStorage.getItem("numeroPregunta");
-    console.log(
-      "Preguntas contestadas:",
-      sessionStorage.getItem("numeroPregunta")
-    );
+
 
     // Si hemos mostrado todas las preguntas, mostrar el mensaje de finalización
     if (sessionStorage.getItem("numeroPregunta") < 6) {
       contadorPregunta++;
       sessionStorage.setItem("numeroPregunta", contadorPregunta);
-      console.log("Preguntas contestadas en el if:", contadorPregunta);
       validarRespuestas();
       validarPreguntaNoRepetida();
     }
     if (sessionStorage.getItem("numeroPregunta") == 6) {
-      // ! Hay que disminuir el numero de la pregunta cuando se completan las 5 preguntas
-      // ! al momento de registrar en la base
-      // ? para que no se registre 6 sino 5
-      // contadorPregunta--;
+
       sessionStorage.setItem("numeroPregunta", contadorPregunta);
-      console.log("Preguntas contestadas en el if:", contadorPregunta);
       mostrarPuntuacion();
     }
   };
@@ -268,12 +227,7 @@ const [reproducirBoton] = useSound(SonidoBoton);
 
     axios
       .post(`${import.meta.env.VITE_BACKEND_URL}/guardarPuntuacion`, puntuacion)
-      .then((res) => {
-        console.log(res);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+
   };
 
   const mostrarPuntuacion = () => {
@@ -369,7 +323,7 @@ const [reproducirBoton] = useSound(SonidoBoton);
           Seleccione la respuesta correcta
         </span>
       </h2>
-      <h1 className="tituloGeneral">¿Qué Pasaría si ...?</h1>
+      <h1 className="tituloGeneral">¿Qué pasaría si ...?</h1>
       <img
         src="/img/fondo/CartelPregunta.png"
         alt="CartelGrande"

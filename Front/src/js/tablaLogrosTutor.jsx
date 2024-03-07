@@ -38,7 +38,6 @@ function TablaLogrosTutor() {
 
   const seleccionarComboBox = (event) => {
     setValorSeleccionado(event.target.value);
-    console.log("Estudiante seleccionado:", valorSeleccionado);
     setEstudianteSeleccionado(valorSeleccionado);
   };
 

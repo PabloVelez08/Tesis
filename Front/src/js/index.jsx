@@ -13,7 +13,6 @@ function Index() {
   const [reproducirBoton] = useSound(SonidoBoton);
 
   const irMenuJuegos = async () => {
-    try {
       const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/login`, {
         usuario: "invitadoinvitado",
         animal: "Cuy",
@@ -26,9 +25,7 @@ function Index() {
         sessionStorage.setItem("informacion", true);
         navigate("/menuJuegos");
       }
-    } catch (error) {
-      console.error("Error al iniciar sesión:", error);
-    }
+
   };
 
   const irLogin = () => {

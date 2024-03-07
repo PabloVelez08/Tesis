@@ -33,7 +33,6 @@ const ArrastrarYSoltar = () => {
     }
 
     // Obtengo las opciones de respuesta y la pregunta actual
-    console.log("opcion 1:", opcion1);
     const { opcionesRespuesta: opciones, preguntaActual } =
       preguntasArrastrarYSoltar(
         sessionStorage.getItem("tituloLectura"),
@@ -84,18 +83,12 @@ const ArrastrarYSoltar = () => {
     var opcion5;
 
     var variableComparacion = generarNumeroAleatorio(1, 10);
-    console.log("variable comparacion:", variableComparacion);
 
     if (sessionStorage.getItem("numeroPregunta") == 2) {
       while (variableComparacion == opcion1) {
         variableComparacion = generarNumeroAleatorio(1, 10);
-        console.log(
-          "variable comparacion dentro del while opcion2:",
-          variableComparacion
-        );
       }
       opcion2 = variableComparacion;
-      console.log("opcion 2 fuera de while:", opcion2);
       sessionStorage.setItem("opcion2", opcion2);
       cargarPreguntas(opcion2);
     } else if (sessionStorage.getItem("numeroPregunta") == 3) {
@@ -104,13 +97,8 @@ const ArrastrarYSoltar = () => {
         variableComparacion == sessionStorage.getItem("opcion2")
       ) {
         variableComparacion = generarNumeroAleatorio(1, 10);
-        console.log(
-          "variable comparacion dentro del while opcion3:",
-          variableComparacion
-        );
       }
       opcion3 = variableComparacion;
-      console.log("opcion 3 fuera de while:", opcion3);
       sessionStorage.setItem("opcion3", opcion3);
       cargarPreguntas(opcion3);
     } else if (sessionStorage.getItem("numeroPregunta") == 4) {
@@ -120,13 +108,8 @@ const ArrastrarYSoltar = () => {
         variableComparacion == sessionStorage.getItem("opcion3")
       ) {
         variableComparacion = generarNumeroAleatorio(1, 10);
-        console.log(
-          "variable comparacion dentro del while opcion4:",
-          variableComparacion
-        );
       }
       opcion4 = variableComparacion;
-      console.log("opcion 4 fuera del while:", opcion4);
       sessionStorage.setItem("opcion4", opcion4);
       cargarPreguntas(opcion4);
     } else if (sessionStorage.getItem("numeroPregunta") == 5) {
@@ -137,13 +120,8 @@ const ArrastrarYSoltar = () => {
         variableComparacion == sessionStorage.getItem("opcion4")
       ) {
         variableComparacion = generarNumeroAleatorio(1, 10);
-        console.log(
-          "variable comparacion dentro del while opcion5:",
-          variableComparacion
-        );
       }
       opcion5 = variableComparacion;
-      console.log("opcion 5 fuera del while:", opcion5);
       cargarPreguntas(opcion5);
     } else {
       ("que paso");
@@ -156,7 +134,6 @@ const ArrastrarYSoltar = () => {
 
   const startDrag = (evt, item) => {
     evt.dataTransfer.setData("itemID", item.id);
-    // console.log("Elemento arrastrado - ID:", item.id);
   };
 
   const draggingOver = (evt) => {
@@ -186,17 +163,12 @@ const ArrastrarYSoltar = () => {
       task.id === itemID ? item : task
     );
     setOpcionesRespuesta(newState);
-    // console.log("Elemento soltado en columna 2:", item.id);
   };
 
   const validarRespuestas = () => {
     const column2Tasks = getList(2);
 
     contadorPreguntasCorrectas = sessionStorage.getItem("preguntasCorrectas");
-    console.log(
-      "Preguntas correctas:",
-      sessionStorage.getItem("preguntasCorrectas")
-    );
 
     if (column2Tasks.length > 0) {
       if (column2Tasks[0].esCorrecta) {
@@ -206,35 +178,23 @@ const ArrastrarYSoltar = () => {
           "preguntasCorrectas",
           contadorPreguntasCorrectas
         );
-        console.log(
-          "Respuesta correcta despues de acertar:",
-          contadorPreguntasCorrectas
-        );
-        // Puedes realizar acciones adicionales aqui
       }
-      console.log("Elemento en la columna 2:", column2Tasks[0].enunciado);
     }
   };
 
   const avanzarPregunta = () => {
     contadorPregunta = sessionStorage.getItem("numeroPregunta");
-    console.log(
-      "Preguntas contestadas:",
-      sessionStorage.getItem("numeroPregunta")
-    );
 
     // Si hemos mostrado todas las preguntas, mostrar el mensaje de finalización
     if (sessionStorage.getItem("numeroPregunta") < 6) {
       contadorPregunta++;
       sessionStorage.setItem("numeroPregunta", contadorPregunta);
-      console.log("Preguntas contestadas en el if:", contadorPregunta);
       validarRespuestas();
       validarPreguntaNoRepetida();
     }
     if (sessionStorage.getItem("numeroPregunta") == 6) {
 
       sessionStorage.setItem("numeroPregunta", contadorPregunta);
-      console.log("Preguntas contestadas en el if:", contadorPregunta);
       mostrarPuntuacion();
     }
   };
@@ -297,12 +257,6 @@ const ArrastrarYSoltar = () => {
 
     axios
       .post(`${import.meta.env.VITE_BACKEND_URL}/guardarPuntuacion`, puntuacion)
-      .then((res) => {
-        console.log(res);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
   };
 
   const mostrarPuntuacion = () => {

@@ -66,7 +66,6 @@ function AceptarEstudiantes() {
               apellido: apellido,
             },
           })
-          .then(() => {
             Swal.fire({
               title: "¡Estudiante eliminado con exito!",
               icon: "success",
@@ -74,11 +73,7 @@ function AceptarEstudiantes() {
               confirmButtonColor: "yellow",
             });
             obtenerEstudiantes();
-          })
-          .catch((error) => {
-            console.error("Error al eliminar estudiante:", error);
-            // Puedes manejar el error de manera adecuada, mostrar un mensaje o realizar otras acciones necesarias.
-          });
+
       }
     });
   };
@@ -103,9 +98,6 @@ function AceptarEstudiantes() {
       confirmButtonColor: "yellow",
     }).then((result) => {
       if (result.isConfirmed) {
-        console.log(userEstudiante);
-        console.log(nombre);
-        console.log(apellido);
         axios
           .put(`${import.meta.env.VITE_BACKEND_URL}/aprobarEstudiante`, {
             userEstudiante: userEstudiante,
@@ -113,7 +105,7 @@ function AceptarEstudiantes() {
             nombre: nombre,
             apellido: apellido,
           })
-          .then(() => {
+          
             Swal.fire({
               title: "Estudiante aprobado con exito!!!",
               icon: "success",
@@ -121,11 +113,6 @@ function AceptarEstudiantes() {
               confirmButtonColor: "yellow",
             });
             obtenerEstudiantes();
-          })
-          .catch((error) => {
-            console.error("Error al aprobar estudiante:", error);
-            // Puedes manejar el error de manera adecuada, mostrar un mensaje o realizar otras acciones necesarias.
-          });
       }
     });
   };

@@ -189,7 +189,6 @@ const FormularioRegistro = () => {
             accion: accion,
           })
           .then((response) => {
-            console.log(response.data.success);
             const tutorYaRegistrado = response.data.success;
             if (tutorYaRegistrado) {
               Swal.fire({
@@ -224,7 +223,6 @@ const FormularioRegistro = () => {
             accion: accion,
           })
           .then((response) => {
-            console.log(response.data.success);
             const tutorNoExiste = response.data.success;
             if (tutorNoExiste == "TutorNoExiste") {
               Swal.fire({

@@ -65,7 +65,6 @@ function ListaEstudiantes() {
               apellido: apellido,
             },
           })
-          .then(() => {
             Swal.fire({
               title: "¡Estudiante eliminado con exito!",
               icon: "success",
@@ -73,11 +72,7 @@ function ListaEstudiantes() {
               confirmButtonColor: "yellow",
             });
             obtenerEstudiantes();
-          })
-          .catch((error) => {
-            console.error("Error al eliminar estudiante:", error);
-            // Puedes manejar el error de manera adecuada, mostrar un mensaje o realizar otras acciones necesarias.
-          });
+
       }
     });
   };

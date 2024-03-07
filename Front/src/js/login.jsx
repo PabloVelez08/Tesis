@@ -95,8 +95,6 @@ const Login = () => {
       });
   
       if (respuesta.isConfirmed) {
-        console.log("Respuesta: ", respuesta.value);
-        console.log("Tipo: ", preguntaAleatoria.tipo);
         
         const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/validarPreguntaSeguridadEstudiante`, {
           tipoPregunta: preguntaAleatoria.tipo,
@@ -130,7 +128,6 @@ const Login = () => {
         }
       }
     } catch (error) {
-      console.error("Error al mostrar la pregunta de seguridad:", error.message);
       // Manejar el error aquí
       Swal.fire({
         title: "Error",
@@ -213,7 +210,6 @@ const Login = () => {
   const iniciar = async (e) => {
     e.preventDefault();
 
-    try {
       if (usuario && animal && color && accion) {
         const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/login`, {
           usuario,
@@ -287,10 +283,7 @@ const Login = () => {
           confirmButtonColor: "yellow",
         });
       }
-    } catch (error) {
-      console.error("Error en iniciar:", error.message);
-      // Puedes mostrar una alerta o realizar acciones adicionales según sea necesario.
-    }
+
   };
 
   const mostrarUsuarioIncorrecto = () => {
