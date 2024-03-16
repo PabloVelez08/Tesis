@@ -24,27 +24,27 @@ const obtenerPreguntasFaunaDeLaCostaEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Delfin Manchado",
+            nombre: "Delfin Manchado",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/delfinmanchado.png",
+              "../img/lecturas/encuentraElPersonaje/DelfinManchado.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Delfin Jorobado",
+            nombre: "Delfin Jorobado",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/delfinjorobado.png",
+              "../img/lecturas/encuentraElPersonaje/DelfinJorobado.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Delfin Nariz de Botella",
+            nombre: "Delfin Nariz de Botella",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/delfinnarizdebotella.png",
+              "../img/lecturas/encuentraElPersonaje/DelfinNarizDeBotella.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Delfin Rosado",
+            nombre: "Delfin Rosado",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/delfinrosado.png",
+              "../img/lecturas/encuentraElPersonaje/DelfinRosado.png",
             esCorrecta: false,
           },
         ],
@@ -55,27 +55,27 @@ const obtenerPreguntasFaunaDeLaCostaEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Piquero Patas Azules",
+            nombre: "Piquero Patas Azules",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/patasazules.png",
+              "../img/lecturas/encuentraElPersonaje/PatasAzules.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Pelícano",
+            nombre: "Pelícano",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pelicano.jpg",
+              "../img/lecturas/encuentraElPersonaje/Pelicano.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "gaviota",
+            nombre: "Gaviota",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/gaviota.jpg",
+              "../img/lecturas/encuentraElPersonaje/Gaviota.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "albatro",
+            nombre: "Albatro",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/albatro.jpg",
+              "../img/lecturas/encuentraElPersonaje/Albatro.jpg",
             esCorrecta: false,
           },
         ],
@@ -86,26 +86,26 @@ const obtenerPreguntasFaunaDeLaCostaEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Caimán",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/caiman.jpg",
+            nombre: "Caimán",
+            imagen: "../img/lecturas/encuentraElPersonaje/Caiman.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "Iguana marina",
+            nombre: "Iguana marina",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/iguanamarina.jpg",
+              "../img/lecturas/encuentraElPersonaje/IguanaMarina.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Tortuga marina",
+            nombre: "Tortuga marina",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tortugamarina.png",
+              "../img/lecturas/encuentraElPersonaje/TortugaMarina.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Serpiente de agua",
+            nombre: "Serpiente de agua",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/serpienteagua.png",
+              "../img/lecturas/encuentraElPersonaje/SerpienteAgua.png",
             esCorrecta: false,
           },
         ],
@@ -116,26 +116,26 @@ const obtenerPreguntasFaunaDeLaCostaEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Iguana marina",
+            nombre: "Iguana marina",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/iguanamarina.jpg",
+              "../img/lecturas/encuentraElPersonaje/IguanaMarina.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "Mono aullador",
+            nombre: "Mono aullador",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/monoaullador.jpg",
+              "../img/lecturas/encuentraElPersonaje/MonoAullador.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Nutria gigante",
+            nombre: "Nutria gigante",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/nutriagigante.jpg",
+              "../img/lecturas/encuentraElPersonaje/NutriaGigante.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Caimán",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/caiman.jpg",
+            nombre: "Caimán",
+            imagen: "../img/lecturas/encuentraElPersonaje/Caiman.jpg",
             esCorrecta: false,
           },
         ],
@@ -146,26 +146,26 @@ const obtenerPreguntasFaunaDeLaCostaEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "pulpo",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/pulpo.jpg",
+            nombre: "Pulpo",
+            imagen: "../img/lecturas/encuentraElPersonaje/Pulpo.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "Cangrejo ermitaño",
+            nombre: "Cangrejo ermitaño",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/cangrejoermitaño.jpg",
+              "../img/lecturas/encuentraElPersonaje/CangrejoErmitaño.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Camarón Mantis",
+            nombre: "Camarón Mantis",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/camaronmantis.jpg",
+              "../img/lecturas/encuentraElPersonaje/CamaronMantis.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Serpiente de agua",
+            nombre: "Serpiente de agua",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/serpienteagua.png",
+              "../img/lecturas/encuentraElPersonaje/SerpienteAgua.png",
             esCorrecta: false,
           },
         ],
@@ -176,25 +176,25 @@ const obtenerPreguntasFaunaDeLaCostaEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Ballena jorobada",
+            nombre: "Ballena jorobada",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/ballenajorobada.jpg",
+              "../img/lecturas/encuentraElPersonaje/BallenaJorobada.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "orca",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/orca.jpg",
+            nombre: "Orca",
+            imagen: "../img/lecturas/encuentraElPersonaje/Orca.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "foca",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/foca.jpg",
+            nombre: "Foca",
+            imagen: "../img/lecturas/encuentraElPersonaje/Foca.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "foca leopardo",
+            nombre: "Foca leopardo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/focaLeopardo.jpg",
+              "../img/lecturas/encuentraElPersonaje/FocaLeopardo.jpg",
             esCorrecta: false,
           },
         ],
@@ -205,27 +205,27 @@ const obtenerPreguntasFaunaDeLaCostaEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Garza blanca",
+            nombre: "Garza blanca",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/garzablanca.jpg",
+              "../img/lecturas/encuentraElPersonaje/GarzaBlanca.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "flamenco",
+            nombre: "Flamenco",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/flamenco.png",
+              "../img/lecturas/encuentraElPersonaje/Flamenco.png",
             esCorrecta: false,
           },
           {
-            enunciado: "pelicano",
+            nombre: "Pelicano",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pelicano.jpg",
+              "../img/lecturas/encuentraElPersonaje/Pelicano.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "albatro",
+            nombre: "Albatro",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/albatro.jpg",
+              "../img/lecturas/encuentraElPersonaje/Albatro.jpg",
             esCorrecta: false,
           },
         ],
@@ -236,25 +236,25 @@ const obtenerPreguntasFaunaDeLaCostaEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Iguana marina",
+            nombre: "Iguana marina",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/iguanamarina.jpg",
+              "../img/lecturas/encuentraElPersonaje/IguanaMarina.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "Tortuga marina",
+            nombre: "Tortuga marina",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tortugamarina.png",
+              "../img/lecturas/encuentraElPersonaje/TortugaMarina.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Caimán",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/caiman.jpg",
+            nombre: "Caimán",
+            imagen: "../img/lecturas/encuentraElPersonaje/Caiman.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "foca",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/foca.jpg",
+            nombre: "Foca",
+            imagen: "../img/lecturas/encuentraElPersonaje/Foca.jpg",
             esCorrecta: false,
           },
         ],
@@ -265,27 +265,27 @@ const obtenerPreguntasFaunaDeLaCostaEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Delfin nariz de botella",
+            nombre: "Delfin nariz de botella",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/delfinnarizdebotella.png",
+              "../img/lecturas/encuentraElPersonaje/DelfinNarizDeBotella.png",
             esCorrecta: true,
           },
           {
-            enunciado: "foca leopardo",
+            nombre: "Foca leopardo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/focaLeopardo.jpg",
+              "../img/lecturas/encuentraElPersonaje/FocaLeopardo.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Delfin manchado",
+            nombre: "Delfin manchado",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/delfinmanchado.png",
+              "../img/lecturas/encuentraElPersonaje/DelfinManchado.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Nutria gigante",
+            nombre: "Nutria gigante",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/nutriagigante.jpg",
+              "../img/lecturas/encuentraElPersonaje/NutriaGigante.jpg",
             esCorrecta: false,
           },
         ],
@@ -296,27 +296,27 @@ const obtenerPreguntasFaunaDeLaCostaEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Piquero de patas azules",
+            nombre: "Piquero de patas azules",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/patasazules.png",
+              "../img/lecturas/encuentraElPersonaje/PatasAzules.png",
             esCorrecta: true,
           },
           {
-            enunciado: "albatro",
+            nombre: "Albatro",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/albatro.jpg",
+              "../img/lecturas/encuentraElPersonaje/Albatro.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Pelícano",
+            nombre: "Pelícano",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pelicano.jpg",
+              "../img/lecturas/encuentraElPersonaje/Pelicano.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "gaviota",
+            nombre: "Gaviota",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/gaviota.jpg",
+              "../img/lecturas/encuentraElPersonaje/Gaviota.jpg",
             esCorrecta: false,
           },
         ],
@@ -336,27 +336,27 @@ const obtenerPreguntasFaunaDeLaSierraEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Cóndor andino",
+            nombre: "Cóndor andino",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/condorandino.png",
+              "../img/lecturas/encuentraElPersonaje/CondorAndino.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Oso de anteojos",
+            nombre: "Oso de anteojos",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osodeanteojos.jpg",
+              "../img/lecturas/encuentraElPersonaje/OsoDeAnteojos.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "gaviota",
+            nombre: "Gaviota",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/gaviota.jpg",
+              "../img/lecturas/encuentraElPersonaje/Gaviota.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "albatro",
+            nombre: "Albatro",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/albatro.jpg",
+              "../img/lecturas/encuentraElPersonaje/Albatro.jpg",
             esCorrecta: false,
           },
         ],
@@ -367,24 +367,24 @@ const obtenerPreguntasFaunaDeLaSierraEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "llama",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/llama.png",
+            nombre: "Llama",
+            imagen: "../img/lecturas/encuentraElPersonaje/Llama.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Tucán andino",
+            nombre: "Tucán andino",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tucanandino.png",
+              "../img/lecturas/encuentraElPersonaje/TucanAndino.png",
             esCorrecta: false,
           },
           {
-            enunciado: "puma",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/puma.jpg",
+            nombre: "Puma",
+            imagen: "../img/lecturas/encuentraElPersonaje/Puma.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "cabra",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/cabra.jpeg",
+            nombre: "Cabra",
+            imagen: "../img/lecturas/encuentraElPersonaje/Cabra.jpeg",
             esCorrecta: false,
           },
         ],
@@ -395,25 +395,25 @@ const obtenerPreguntasFaunaDeLaSierraEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "puma",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/puma.jpg",
+            nombre: "Puma",
+            imagen: "../img/lecturas/encuentraElPersonaje/Puma.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "Oso de anteojos",
+            nombre: "Oso de anteojos",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osodeanteojos.jpg",
+              "../img/lecturas/encuentraElPersonaje/OsoDeAnteojos.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Caimán",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/caiman.jpg",
+            nombre: "Caimán",
+            imagen: "../img/lecturas/encuentraElPersonaje/Caiman.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Oso grizzly",
+            nombre: "Oso grizzly",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osogrizzly.png",
+              "../img/lecturas/encuentraElPersonaje/OsoGrizzly.png",
             esCorrecta: false,
           },
         ],
@@ -424,26 +424,26 @@ const obtenerPreguntasFaunaDeLaSierraEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Oso de anteojos",
+            nombre: "Oso de anteojos",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osodeanteojos.jpg",
+              "../img/lecturas/encuentraElPersonaje/OsoDeAnteojos.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "Oso grizzly",
+            nombre: "Oso grizzly",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osogrizzly.png",
+              "../img/lecturas/encuentraElPersonaje/OsoGrizzly.png",
             esCorrecta: false,
           },
           {
-            enunciado: "tigrillo",
+            nombre: "Tigrillo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tigrillo.png",
+              "../img/lecturas/encuentraElPersonaje/Tigrillo.png",
             esCorrecta: false,
           },
           {
-            enunciado: "puma",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/puma.jpg",
+            nombre: "Puma",
+            imagen: "../img/lecturas/encuentraElPersonaje/Puma.jpg",
             esCorrecta: false,
           },
         ],
@@ -454,27 +454,27 @@ const obtenerPreguntasFaunaDeLaSierraEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Tucán andino",
+            nombre: "Tucán andino",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tucanandino.png",
+              "../img/lecturas/encuentraElPersonaje/TucanAndino.png",
             esCorrecta: true,
           },
           {
-            enunciado: "gaviota",
+            nombre: "Gaviota",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/gaviota.jpg",
+              "../img/lecturas/encuentraElPersonaje/Gaviota.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "flamenco",
+            nombre: "Flamenco",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/flamenco.png",
+              "../img/lecturas/encuentraElPersonaje/Flamenco.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Pavo real",
+            nombre: "Pavo real",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pavoreal.jpg",
+              "../img/lecturas/encuentraElPersonaje/PavoReal.jpg",
             esCorrecta: false,
           },
         ],
@@ -485,27 +485,27 @@ const obtenerPreguntasFaunaDeLaSierraEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Cóndor andino",
+            nombre: "Cóndor andino",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/condorandino.png",
+              "../img/lecturas/encuentraElPersonaje/CondorAndino.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Tucán andino",
+            nombre: "Tucán andino",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tucanandino.png",
+              "../img/lecturas/encuentraElPersonaje/TucanAndino.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Piquero de patas azules",
+            nombre: "Piquero de patas azules",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/patasazules.png",
+              "../img/lecturas/encuentraElPersonaje/PatasAzules.png",
             esCorrecta: false,
           },
           {
-            enunciado: "pelicano",
+            nombre: "Pelicano",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pelicano.jpg",
+              "../img/lecturas/encuentraElPersonaje/Pelicano.jpg",
             esCorrecta: false,
           },
         ],
@@ -516,27 +516,27 @@ const obtenerPreguntasFaunaDeLaSierraEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Oso de anteojos",
+            nombre: "Oso de anteojos",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osodeanteojos.jpg",
+              "../img/lecturas/encuentraElPersonaje/OsoDeAnteojos.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "Oso polar",
+            nombre: "Oso polar",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osopolar.jpg",
+              "../img/lecturas/encuentraElPersonaje/OsoPolar.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Oso perezoso",
+            nombre: "Oso perezoso",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osoperezoso.png",
+              "../img/lecturas/encuentraElPersonaje/OsoPerezoso.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Oso hormiguero",
+            nombre: "Oso hormiguero",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osohormiguero.jpg",
+              "../img/lecturas/encuentraElPersonaje/OsoHormiguero.jpg",
             esCorrecta: false,
           },
         ],
@@ -547,25 +547,25 @@ const obtenerPreguntasFaunaDeLaSierraEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "puma",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/puma.jpg",
+            nombre: "Puma",
+            imagen: "../img/lecturas/encuentraElPersonaje/Puma.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "tigrillo",
+            nombre: "Tigrillo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tigrillo.png",
+              "../img/lecturas/encuentraElPersonaje/Tigrillo.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Oso hormiguero",
+            nombre: "Oso hormiguero",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osohormiguero.jpg",
+              "../img/lecturas/encuentraElPersonaje/OsoHormiguero.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Caimán",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/caiman.jpg",
+            nombre: "Caimán",
+            imagen: "../img/lecturas/encuentraElPersonaje/Caiman.jpg",
             esCorrecta: false,
           },
         ],
@@ -576,25 +576,25 @@ const obtenerPreguntasFaunaDeLaSierraEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "llama",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/llama.png",
+            nombre: "Llama",
+            imagen: "../img/lecturas/encuentraElPersonaje/Llama.png",
             esCorrecta: true,
           },
           {
-            enunciado: "cabra",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/cabra.jpeg",
+            nombre: "Cabra",
+            imagen: "../img/lecturas/encuentraElPersonaje/Cabra.jpeg",
             esCorrecta: false,
           },
           {
-            enunciado: "Oso polar",
+            nombre: "Oso polar",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osopolar.jpg",
+              "../img/lecturas/encuentraElPersonaje/OsoPolar.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Tucán andino",
+            nombre: "Tucán andino",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tucanandino.png",
+              "../img/lecturas/encuentraElPersonaje/TucanAndino.png",
             esCorrecta: false,
           },
         ],
@@ -605,25 +605,25 @@ const obtenerPreguntasFaunaDeLaSierraEcuatoriana = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Oso de anteojos",
+            nombre: "Oso de anteojos",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osodeanteojos.jpg",
+              "../img/lecturas/encuentraElPersonaje/OsoDeAnteojos.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "Oso perezoso",
+            nombre: "Oso perezoso",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osoperezoso.png",
+              "../img/lecturas/encuentraElPersonaje/OsoPerezoso.png",
             esCorrecta: false,
           },
           {
-            enunciado: "puma",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/puma.jpg",
+            nombre: "Puma",
+            imagen: "../img/lecturas/encuentraElPersonaje/Puma.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "llama",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/llama.png",
+            nombre: "Llama",
+            imagen: "../img/lecturas/encuentraElPersonaje/Llama.png",
             esCorrecta: false,
           },
         ],
@@ -641,25 +641,25 @@ const obtenerPreguntasFaunaDelOrienteEcuatoriano = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "jaguar",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/jaguar.png",
+            nombre: "Jaguar",
+            imagen: "../img/lecturas/encuentraElPersonaje/Jaguar.png",
             esCorrecta: true,
           },
           {
-            enunciado: "tigrillo",
+            nombre: "Tigrillo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tigrillo.png",
+              "../img/lecturas/encuentraElPersonaje/Tigrillo.png",
             esCorrecta: false,
           },
           {
-            enunciado: "puma",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/puma.jpg",
+            nombre: "Puma",
+            imagen: "../img/lecturas/encuentraElPersonaje/Puma.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Oso grizzly",
+            nombre: "Oso grizzly",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osogrizzly.png",
+              "../img/lecturas/encuentraElPersonaje/OsoGrizzly.png",
             esCorrecta: false,
           },
         ],
@@ -670,27 +670,27 @@ const obtenerPreguntasFaunaDelOrienteEcuatoriano = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "guacamayo",
+            nombre: "Guacamayo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/guacamayo.png",
+              "../img/lecturas/encuentraElPersonaje/Guacamayo.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Tucán andino",
+            nombre: "Tucán andino",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tucanandino.png",
+              "../img/lecturas/encuentraElPersonaje/TucanAndino.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Pavo real",
+            nombre: "Pavo real",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pavoreal.jpg",
+              "../img/lecturas/encuentraElPersonaje/PavoReal.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "pelicano",
+            nombre: "Pelicano",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pelicano.jpg",
+              "../img/lecturas/encuentraElPersonaje/Pelicano.jpg",
             esCorrecta: false,
           },
         ],
@@ -701,27 +701,27 @@ const obtenerPreguntasFaunaDelOrienteEcuatoriano = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "anaconda",
+            nombre: "Anaconda",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/anaconda.jpg",
+              "../img/lecturas/encuentraElPersonaje/Anaconda.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "Serpiente de agua",
+            nombre: "Serpiente de agua",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/serpienteagua.png",
+              "../img/lecturas/encuentraElPersonaje/SerpienteAgua.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Serpiente cascabel",
+            nombre: "Serpiente cascabel",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/serpientecascabel.jpg",
+              "../img/lecturas/encuentraElPersonaje/SerpienteCascabel.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Serpiente coral",
+            nombre: "Serpiente coral",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/serpientecoral.jpg",
+              "../img/lecturas/encuentraElPersonaje/SerpienteCoral.jpg",
             esCorrecta: false,
           },
         ],
@@ -732,27 +732,27 @@ const obtenerPreguntasFaunaDelOrienteEcuatoriano = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Oso perezoso",
+            nombre: "Oso perezoso",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osoperezoso.png",
+              "../img/lecturas/encuentraElPersonaje/OsoPerezoso.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Mono aullador",
+            nombre: "Mono aullador",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/monoaullador.jpg",
+              "../img/lecturas/encuentraElPersonaje/MonoAullador.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Nutria gigante",
+            nombre: "Nutria gigante",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/nutriagigante.jpg",
+              "../img/lecturas/encuentraElPersonaje/NutriaGigante.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Oso de anteojos",
+            nombre: "Oso de anteojos",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osodeanteojos.jpg",
+              "../img/lecturas/encuentraElPersonaje/OsoDeAnteojos.jpg",
             esCorrecta: false,
           },
         ],
@@ -763,27 +763,27 @@ const obtenerPreguntasFaunaDelOrienteEcuatoriano = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "tigrillo",
+            nombre: "Tigrillo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tigrillo.png",
+              "../img/lecturas/encuentraElPersonaje/Tigrillo.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Mono aullador",
+            nombre: "Mono aullador",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/monoaullador.jpg",
+              "../img/lecturas/encuentraElPersonaje/MonoAullador.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Iguana marina",
+            nombre: "Iguana marina",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/iguanamarina.jpg",
+              "../img/lecturas/encuentraElPersonaje/IguanaMarina.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Mono araña",
+            nombre: "Mono araña",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/monoaraña.png",
+              "../img/lecturas/encuentraElPersonaje/MonoAraña.png",
             esCorrecta: false,
           },
         ],
@@ -794,25 +794,25 @@ const obtenerPreguntasFaunaDelOrienteEcuatoriano = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "jaguar",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/jaguar.png",
+            nombre: "Jaguar",
+            imagen: "../img/lecturas/encuentraElPersonaje/Jaguar.png",
             esCorrecta: true,
           },
           {
-            enunciado: "puma",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/puma.jpg",
+            nombre: "Puma",
+            imagen: "../img/lecturas/encuentraElPersonaje/Puma.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "tigrillo",
+            nombre: "Tigrillo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tigrillo.png",
+              "../img/lecturas/encuentraElPersonaje/Tigrillo.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Oso hormiguero",
+            nombre: "Oso hormiguero",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osohormiguero.jpg",
+              "../img/lecturas/encuentraElPersonaje/OsoHormiguero.jpg",
             esCorrecta: false,
           },
         ],
@@ -823,27 +823,27 @@ const obtenerPreguntasFaunaDelOrienteEcuatoriano = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "guacamayo",
+            nombre: "Guacamayo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/guacamayo.png",
+              "../img/lecturas/encuentraElPersonaje/Guacamayo.png",
             esCorrecta: true,
           },
           {
-            enunciado: "albatro",
+            nombre: "Albatro",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/albatro.jpg",
+              "../img/lecturas/encuentraElPersonaje/Albatro.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Garza blanca",
+            nombre: "Garza blanca",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/garzablanca.jpg",
+              "../img/lecturas/encuentraElPersonaje/GarzaBlanca.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Piquero de patas azules",
+            nombre: "Piquero de patas azules",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/patasazules.png",
+              "../img/lecturas/encuentraElPersonaje/PatasAzules.png",
             esCorrecta: false,
           },
         ],
@@ -854,26 +854,26 @@ const obtenerPreguntasFaunaDelOrienteEcuatoriano = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "anaconda",
+            nombre: "Anaconda",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/anaconda.jpg",
+              "../img/lecturas/encuentraElPersonaje/Anaconda.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "Caimán",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/caiman.jpg",
+            nombre: "Caimán",
+            imagen: "../img/lecturas/encuentraElPersonaje/Caiman.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Iguana marina",
+            nombre: "Iguana marina",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/iguanamarina.jpg",
+              "../img/lecturas/encuentraElPersonaje/IguanaMarina.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Serpiente de agua",
+            nombre: "Serpiente de agua",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/serpienteagua.png",
+              "../img/lecturas/encuentraElPersonaje/SerpienteAgua.png",
             esCorrecta: false,
           },
         ],
@@ -884,26 +884,26 @@ const obtenerPreguntasFaunaDelOrienteEcuatoriano = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Oso perezoso",
+            nombre: "Oso perezoso",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osoperezoso.png",
+              "../img/lecturas/encuentraElPersonaje/OsoPerezoso.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Tortuga marina",
+            nombre: "Tortuga marina",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tortugamarina.png",
+              "../img/lecturas/encuentraElPersonaje/TortugaMarina.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Oso hormiguero",
+            nombre: "Oso hormiguero",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osohormiguero.jpg",
+              "../img/lecturas/encuentraElPersonaje/OsoHormiguero.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "pulpo",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/pulpo.jpg",
+            nombre: "Pulpo",
+            imagen: "../img/lecturas/encuentraElPersonaje/Pulpo.jpg",
             esCorrecta: false,
           },
         ],
@@ -914,27 +914,27 @@ const obtenerPreguntasFaunaDelOrienteEcuatoriano = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "tigrillo",
+            nombre: "Tigrillo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tigrillo.png",
+              "../img/lecturas/encuentraElPersonaje/Tigrillo.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Mono aullador",
+            nombre: "Mono aullador",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/monoaullador.jpg",
+              "../img/lecturas/encuentraElPersonaje/MonoAullador.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Mono araña",
+            nombre: "Mono araña",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/monoaraña.png",
+              "../img/lecturas/encuentraElPersonaje/MonoAraña.png",
             esCorrecta: false,
           },
           {
-            enunciado: "foca leopardo",
+            nombre: "Foca leopardo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/focaLeopardo.jpg",
+              "../img/lecturas/encuentraElPersonaje/FocaLeopardo.jpg",
             esCorrecta: false,
           },
         ],
@@ -952,27 +952,27 @@ const obtenerPreguntasFaunaDeLasIslasGalapagos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Tortuga gigante",
+            nombre: "Tortuga gigante",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tortugagigante.png",
+              "../img/lecturas/encuentraElPersonaje/TortugaGigante.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Iguana marina",
+            nombre: "Iguana marina",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/iguanamarina.jpg",
+              "../img/lecturas/encuentraElPersonaje/IguanaMarina.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "León marino",
+            nombre: "León marino",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/leonmarino.png",
+              "../img/lecturas/encuentraElPersonaje/LeonMarino.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Piquero de patas azules",
+            nombre: "Piquero de patas azules",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/patasazules.png",
+              "../img/lecturas/encuentraElPersonaje/PatasAzules.png",
             esCorrecta: false,
           },
         ],
@@ -983,27 +983,27 @@ const obtenerPreguntasFaunaDeLasIslasGalapagos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Piquero de patas azules",
+            nombre: "Piquero de patas azules",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/patasazules.png",
+              "../img/lecturas/encuentraElPersonaje/PatasAzules.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Garza blanca",
+            nombre: "Garza blanca",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/garzablanca.jpg",
+              "../img/lecturas/encuentraElPersonaje/GarzaBlanca.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "albatro",
+            nombre: "Albatro",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/albatro.jpg",
+              "../img/lecturas/encuentraElPersonaje/Albatro.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Pinzón de Darwin",
+            nombre: "Pinzón de Darwin",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pinzondedarwin.jpeg",
+              "../img/lecturas/encuentraElPersonaje/PinzonDeDarwin.jpeg",
             esCorrecta: false,
           },
         ],
@@ -1014,27 +1014,27 @@ const obtenerPreguntasFaunaDeLasIslasGalapagos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Iguana marina",
+            nombre: "Iguana marina",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/iguanamarina.jpg",
+              "../img/lecturas/encuentraElPersonaje/IguanaMarina.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "Iguana verde",
+            nombre: "Iguana verde",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/iguanaverde.jpg",
+              "../img/lecturas/encuentraElPersonaje/IguanaVerde.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Iguana negra",
+            nombre: "Iguana negra",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/iguananegra.jpeg",
+              "../img/lecturas/encuentraElPersonaje/IguanaNegra.jpeg",
             esCorrecta: false,
           },
           {
-            enunciado: "lagartija",
+            nombre: "Lagartija",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/lagartija.png",
+              "../img/lecturas/encuentraElPersonaje/Lagartija.png",
             esCorrecta: false,
           },
         ],
@@ -1045,27 +1045,27 @@ const obtenerPreguntasFaunaDeLasIslasGalapagos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "León marino",
+            nombre: "León marino",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/leonmarino.png",
+              "../img/lecturas/encuentraElPersonaje/LeonMarino.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Iguana verde",
+            nombre: "Iguana verde",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/iguanaverde.jpg",
+              "../img/lecturas/encuentraElPersonaje/IguanaVerde.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Tortuga marina",
+            nombre: "Tortuga marina",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tortugamarina.png",
+              "../img/lecturas/encuentraElPersonaje/TortugaMarina.png",
             esCorrecta: false,
           },
           {
-            enunciado: "foca leopardo",
+            nombre: "Foca leopardo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/focaLeopardo.jpg",
+              "../img/lecturas/encuentraElPersonaje/FocaLeopardo.jpg",
             esCorrecta: false,
           },
         ],
@@ -1076,27 +1076,27 @@ const obtenerPreguntasFaunaDeLasIslasGalapagos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Pinzón de Darwin",
+            nombre: "Pinzón de Darwin",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pinzondedarwin.jpeg",
+              "../img/lecturas/encuentraElPersonaje/PinzonDeDarwin.jpeg",
             esCorrecta: true,
           },
           {
-            enunciado: "Mono araña",
+            nombre: "Mono araña",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/monoaraña.png",
+              "../img/lecturas/encuentraElPersonaje/MonoAraña.png",
             esCorrecta: false,
           },
           {
-            enunciado: "tigrillo",
+            nombre: "Tigrillo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tigrillo.png",
+              "../img/lecturas/encuentraElPersonaje/Tigrillo.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Oso perezoso",
+            nombre: "Oso perezoso",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osoperezoso.png",
+              "../img/lecturas/encuentraElPersonaje/OsoPerezoso.png",
             esCorrecta: false,
           },
         ],
@@ -1107,27 +1107,27 @@ const obtenerPreguntasFaunaDeLasIslasGalapagos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "León marino",
+            nombre: "León marino",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/leonmarino.png",
+              "../img/lecturas/encuentraElPersonaje/LeonMarino.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Tortuga gigante",
+            nombre: "Tortuga gigante",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tortugagigante.png",
+              "../img/lecturas/encuentraElPersonaje/TortugaGigante.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Iguana negra",
+            nombre: "Iguana negra",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/iguananegra.jpeg",
+              "../img/lecturas/encuentraElPersonaje/IguanaNegra.jpeg",
             esCorrecta: false,
           },
           {
-            enunciado: "Camarón mantis",
+            nombre: "Camarón mantis",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/camaronmantis.jpg",
+              "../img/lecturas/encuentraElPersonaje/CamaronMantis.jpg",
             esCorrecta: false,
           },
         ],
@@ -1138,27 +1138,27 @@ const obtenerPreguntasFaunaDeLasIslasGalapagos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Pinzón de Darwin",
+            nombre: "Pinzón de Darwin",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pinzondedarwin.jpeg",
+              "../img/lecturas/encuentraElPersonaje/PinzonDeDarwin.jpeg",
             esCorrecta: true,
           },
           {
-            enunciado: "flamenco",
+            nombre: "Flamenco",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/flamenco.png",
+              "../img/lecturas/encuentraElPersonaje/Flamenco.png",
             esCorrecta: false,
           },
           {
-            enunciado: "guacamayo",
+            nombre: "Guacamayo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/guacamayo.png",
+              "../img/lecturas/encuentraElPersonaje/Guacamayo.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Tucán andino",
+            nombre: "Tucán andino",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tucanandino.png",
+              "../img/lecturas/encuentraElPersonaje/TucanAndino.png",
             esCorrecta: false,
           },
         ],
@@ -1169,25 +1169,25 @@ const obtenerPreguntasFaunaDeLasIslasGalapagos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "León marino",
+            nombre: "León marino",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/leonmarino.png",
+              "../img/lecturas/encuentraElPersonaje/LeonMarino.png",
             esCorrecta: true,
           },
           {
-            enunciado: "puma",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/puma.jpg",
+            nombre: "Puma",
+            imagen: "../img/lecturas/encuentraElPersonaje/Puma.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "jaguar",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/jaguar.png",
+            nombre: "Jaguar",
+            imagen: "../img/lecturas/encuentraElPersonaje/Jaguar.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Oso polar",
+            nombre: "Oso polar",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/osopolar.jpg",
+              "../img/lecturas/encuentraElPersonaje/OsoPolar.jpg",
             esCorrecta: false,
           },
         ],
@@ -1198,27 +1198,27 @@ const obtenerPreguntasFaunaDeLasIslasGalapagos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Piquero de patas azules",
+            nombre: "Piquero de patas azules",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/patasazules.png",
+              "../img/lecturas/encuentraElPersonaje/PatasAzules.png",
             esCorrecta: true,
           },
           {
-            enunciado: "guacamayo",
+            nombre: "Guacamayo",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/guacamayo.png",
+              "../img/lecturas/encuentraElPersonaje/Guacamayo.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Pinzón de Darwin",
+            nombre: "Pinzón de Darwin",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pinzondedarwin.jpeg",
+              "../img/lecturas/encuentraElPersonaje/PinzonDeDarwin.jpeg",
             esCorrecta: false,
           },
           {
-            enunciado: "pelicano",
+            nombre: "Pelicano",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pelicano.jpg",
+              "../img/lecturas/encuentraElPersonaje/Pelicano.jpg",
             esCorrecta: false,
           },
         ],
@@ -1229,26 +1229,26 @@ const obtenerPreguntasFaunaDeLasIslasGalapagos = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Pinzón de Darwin",
+            nombre: "Pinzón de Darwin",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pinzondedarwin.jpeg",
+              "../img/lecturas/encuentraElPersonaje/PinzonDeDarwin.jpeg",
             esCorrecta: true,
           },
           {
-            enunciado: "lagartija",
+            nombre: "Lagartija",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/lagartija.png",
+              "../img/lecturas/encuentraElPersonaje/Lagartija.png",
             esCorrecta: false,
           },
           {
-            enunciado: "foca",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/foca.jpg",
+            nombre: "Foca",
+            imagen: "../img/lecturas/encuentraElPersonaje/Foca.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Tortuga gigante",
+            nombre: "Tortuga gigante",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/tortugagigante.png",
+              "../img/lecturas/encuentraElPersonaje/TortugaGigante.png",
             esCorrecta: false,
           },
         ],
@@ -1266,24 +1266,24 @@ const obtenerPreguntasFrutosDelEcuador = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Maracuyá",
+            nombre: "Maracuyá",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/maracuya.jpg",
+              "../img/lecturas/encuentraElPersonaje/Maracuya.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "mango",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/mango.jpg",
+            nombre: "Mango",
+            imagen: "../img/lecturas/encuentraElPersonaje/Mango.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "papaya",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/papaya.jpg",
+            nombre: "Papaya",
+            imagen: "../img/lecturas/encuentraElPersonaje/Papaya.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "kiwi",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/kiwi.png",
+            nombre: "Kiwi",
+            imagen: "../img/lecturas/encuentraElPersonaje/Kiwi.png",
             esCorrecta: false,
           },
         ],
@@ -1294,26 +1294,26 @@ const obtenerPreguntasFrutosDelEcuador = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "chirimoya",
+            nombre: "Chirimoya",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/chirimoya.jpeg",
+              "../img/lecturas/encuentraElPersonaje/Chirimoya.jpeg",
             esCorrecta: true,
           },
           {
-            enunciado: "mandarina",
+            nombre: "Mandarina",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/mandarina.png",
+              "../img/lecturas/encuentraElPersonaje/Mandarina.png",
             esCorrecta: false,
           },
           {
-            enunciado: "durazno",
+            nombre: "Durazno",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/durazno.jpg",
+              "../img/lecturas/encuentraElPersonaje/Durazno.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Sandía",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/sandia.jpg",
+            nombre: "Sandía",
+            imagen: "../img/lecturas/encuentraElPersonaje/Sandia.jpg",
             esCorrecta: false,
           },
         ],
@@ -1324,26 +1324,26 @@ const obtenerPreguntasFrutosDelEcuador = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "babaco",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/babaco.png",
+            nombre: "Babaco",
+            imagen: "../img/lecturas/encuentraElPersonaje/Babaco.png",
             esCorrecta: true,
           },
           {
-            enunciado: "durazno",
+            nombre: "Durazno",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/durazno.jpg",
+              "../img/lecturas/encuentraElPersonaje/Durazno.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "guayaba",
+            nombre: "Guayaba",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/guayaba.png",
+              "../img/lecturas/encuentraElPersonaje/Guayaba.png",
             esCorrecta: false,
           },
           {
-            enunciado: "granadilla",
+            nombre: "Granadilla",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/granadilla.png",
+              "../img/lecturas/encuentraElPersonaje/Granadilla.png",
             esCorrecta: false,
           },
         ],
@@ -1354,27 +1354,27 @@ const obtenerPreguntasFrutosDelEcuador = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "pitahaya",
+            nombre: "Pitahaya",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pitahaya.png",
+              "../img/lecturas/encuentraElPersonaje/Pitahaya.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Guanábana",
+            nombre: "Guanábana",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/guanabana.jpg",
+              "../img/lecturas/encuentraElPersonaje/Guanabana.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "zapote",
+            nombre: "Zapote",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/zapote.jpeg",
+              "../img/lecturas/encuentraElPersonaje/Zapote.jpeg",
             esCorrecta: false,
           },
           {
-            enunciado: "guayaba",
+            nombre: "Guayaba",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/guayaba.png",
+              "../img/lecturas/encuentraElPersonaje/Guayaba.png",
             esCorrecta: false,
           },
         ],
@@ -1385,26 +1385,26 @@ const obtenerPreguntasFrutosDelEcuador = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "cinchona",
+            nombre: "Cinchona",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/cinchona.png",
+              "../img/lecturas/encuentraElPersonaje/Cinchona.png",
             esCorrecta: true,
           },
           {
-            enunciado: "Plátano",
+            nombre: "Plátano",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/platano.png",
+              "../img/lecturas/encuentraElPersonaje/Platano.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Maracuyá",
+            nombre: "Maracuyá",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/maracuya.jpg",
+              "../img/lecturas/encuentraElPersonaje/Maracuya.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "Sandía",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/sandia.jpg",
+            nombre: "Sandía",
+            imagen: "../img/lecturas/encuentraElPersonaje/Sandia.jpg",
             esCorrecta: false,
           },
         ],
@@ -1415,24 +1415,24 @@ const obtenerPreguntasFrutosDelEcuador = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "aromo",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/aromo.png",
+            nombre: "Aromo",
+            imagen: "../img/lecturas/encuentraElPersonaje/Aromo.png",
             esCorrecta: true,
           },
           {
-            enunciado: "granadilla",
+            nombre: "Granadilla",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/granadilla.png",
+              "../img/lecturas/encuentraElPersonaje/Granadilla.png",
             esCorrecta: false,
           },
           {
-            enunciado: "babaco",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/babaco.png",
+            nombre: "Babaco",
+            imagen: "../img/lecturas/encuentraElPersonaje/Babaco.png",
             esCorrecta: false,
           },
           {
-            enunciado: "coco",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/coco.png",
+            nombre: "Coco",
+            imagen: "../img/lecturas/encuentraElPersonaje/Coco.png",
             esCorrecta: false,
           },
         ],
@@ -1443,26 +1443,26 @@ const obtenerPreguntasFrutosDelEcuador = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "Maracuyá",
+            nombre: "Maracuyá",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/maracuya.jpg",
+              "../img/lecturas/encuentraElPersonaje/Maracuya.jpg",
             esCorrecta: true,
           },
           {
-            enunciado: "guayaba",
+            nombre: "Guayaba",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/guayaba.png",
+              "../img/lecturas/encuentraElPersonaje/Guayaba.png",
             esCorrecta: false,
           },
           {
-            enunciado: "chirimoya",
+            nombre: "Chirimoya",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/chirimoya.jpeg",
+              "../img/lecturas/encuentraElPersonaje/Chirimoya.jpeg",
             esCorrecta: false,
           },
           {
-            enunciado: "mango",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/mango.jpg",
+            nombre: "Mango",
+            imagen: "../img/lecturas/encuentraElPersonaje/Mango.jpg",
             esCorrecta: false,
           },
         ],
@@ -1473,25 +1473,25 @@ const obtenerPreguntasFrutosDelEcuador = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "pitahaya",
+            nombre: "Pitahaya",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/pitahaya.png",
+              "../img/lecturas/encuentraElPersonaje/Pitahaya.png",
             esCorrecta: true,
           },
           {
-            enunciado: "papaya",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/papaya.jpg",
+            nombre: "Papaya",
+            imagen: "../img/lecturas/encuentraElPersonaje/Papaya.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "cinchona",
+            nombre: "Cinchona",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/cinchona.png",
+              "../img/lecturas/encuentraElPersonaje/Cinchona.png",
             esCorrecta: false,
           },
           {
-            enunciado: "kiwi",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/kiwi.png",
+            nombre: "Kiwi",
+            imagen: "../img/lecturas/encuentraElPersonaje/Kiwi.png",
             esCorrecta: false,
           },
         ],
@@ -1502,26 +1502,26 @@ const obtenerPreguntasFrutosDelEcuador = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "cinchona",
+            nombre: "Cinchona",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/cinchona.png",
+              "../img/lecturas/encuentraElPersonaje/Cinchona.png",
             esCorrecta: true,
           },
           {
-            enunciado: "aromo",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/aromo.png",
+            nombre: "Aromo",
+            imagen: "../img/lecturas/encuentraElPersonaje/Aromo.png",
             esCorrecta: false,
           },
           {
-            enunciado: "Maracuyá",
+            nombre: "Maracuyá",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/maracuya.jpg",
+              "../img/lecturas/encuentraElPersonaje/Maracuya.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "zapote",
+            nombre: "Zapote",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/zapote.jpeg",
+              "../img/lecturas/encuentraElPersonaje/Zapote.jpeg",
             esCorrecta: false,
           },
         ],
@@ -1532,25 +1532,25 @@ const obtenerPreguntasFrutosDelEcuador = (numeroPregunta) => {
       return {
         opcionesRespuesta: [
           {
-            enunciado: "chirimoya",
+            nombre: "Chirimoya",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/chirimoya.jpeg",
+              "../img/lecturas/encuentraElPersonaje/Chirimoya.jpeg",
             esCorrecta: true,
           },
           {
-            enunciado: "mandarina",
+            nombre: "Mandarina",
             imagen:
-              "../../public/img/lecturas/encuentraelpersonaje/mandarina.png",
+              "../img/lecturas/encuentraElPersonaje/Mandarina.png",
             esCorrecta: false,
           },
           {
-            enunciado: "papaya",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/papaya.jpg",
+            nombre: "Papaya",
+            imagen: "../img/lecturas/encuentraElPersonaje/Papaya.jpg",
             esCorrecta: false,
           },
           {
-            enunciado: "kiwi",
-            imagen: "../../public/img/lecturas/encuentraelpersonaje/kiwi.png",
+            nombre: "Kiwi",
+            imagen: "../img/lecturas/encuentraElPersonaje/Kiwi.png",
             esCorrecta: false,
           },
         ],
@@ -1565,10 +1565,10 @@ const obtenerPreguntasFrutosDelEcuador = (numeroPregunta) => {
 const obtenerPreguntasPredeterminadas = () => {
   return {
     opcionesRespuesta: [
-      { enunciado: "Opción A (Predeterminada)", esCorrecta: false },
-      { enunciado: "Opción B (Predeterminada)", esCorrecta: false },
-      { enunciado: "Opción C (Predeterminada)", esCorrecta: false },
-      { enunciado: "Opción D (Predeterminada)", esCorrecta: true },
+      { nombre: "Opción A (Predeterminada)", esCorrecta: false },
+      { nombre: "Opción B (Predeterminada)", esCorrecta: false },
+      { nombre: "Opción C (Predeterminada)", esCorrecta: false },
+      { nombre: "Opción D (Predeterminada)", esCorrecta: true },
     ],
     preguntaActual: "Pregunta predeterminada",
   };

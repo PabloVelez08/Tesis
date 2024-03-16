@@ -303,7 +303,7 @@ const obtenerPreguntasTioPumaYTioZorro = (numeroPregunta) => {
           },
           {
             id: 2,
-            enunciado: "ío Puma anunció que Tío Zorro sería su almuerzo.",
+            enunciado: "Tío Puma anunció que Tío Zorro sería su almuerzo.",
           },
           {
             id: 3,
